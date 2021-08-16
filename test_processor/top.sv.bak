@@ -1,0 +1,27 @@
+module top #(parameter WIDTH = 32)
+			   (input logic clk, reset,
+				output logic [WIDTH-1:0] WriteData, DataAdrA, PC,
+				output logic MemWrite);
+				
+logic [WIDTH-1:0] Instr, ReadDataMem, ReadDataIO, ReadData, DataAdrB, ReadDataReg; //PC, DataAdrA, WriteData;
+logic dir_slt; //MemWrite;
+
+// instantiate processor
+ARM armPipeLine (clk, reset, PC, Instr, MemWrite, DataAdrA, WriteData, ReadData);
+
+// instantiate instruction memories
+imem imem(PC, Instr);
+
+// instantiate data memories
+dmem dmem(clk, MemWrite, DataAdrA, DataAdrB, WriteData, ReadDataMem, ReadDataReg);
+
+// instantiate Comparator
+comparator Comparador (DataAdrA, dir_slt); //Program Logic
+
+// instantiate Read Mux
+mux2 #(32) readMux(ReadDataMem, ReadDataIO, dir_slt, ReadData);
+
+// instantiate I/O UNIT
+io_control IO_Control (clk, reset, DataAdrA, ReadDataReg, DataAdrB, ReadDataIO); //ADD output to the module io_control
+																											//Program Logic
+endmodule
