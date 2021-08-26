@@ -35,11 +35,11 @@ logic [3:0] RAD1, RAD2, WA3W;
 logic regWriteW, pcSrcD, regWriteD, memWriteD, memToRegD, aluSrcD, branchD;
 logic [WIDTH-1:0] RD1, RD2, extImmD;
 
-MUX2 #(4) RAD1_ (instrD[WIDTH-13:WIDTH-16], 4'd15, regSrcD[0], RAD1);
+MUX2 #(4) RAD1_ (instrD[19:16], 4'd15, regSrcD[0], RAD1);
 MUX2 #(4) RAD2_ (instrD[3:0], instrD[15:12], regSrcD[1], RAD2);
 REGFILE #(WIDTH) registerFile_ (clk, regWriteW, RAD1, RAD2, WA3W, resultW, pcPlus, RD1, RD2);
-EXTEND #(WIDTH) extend_ (instrD[WIDTH-9:0], immSrcD, extImmD);
-DECODER controlUnit_ (instrD[WIDTH-5:WIDTH-6], instrD[WIDTH-7:WIDTH-12], instrD[WIDTH-17:WIDTH-20], 
+EXTEND #(WIDTH) extend_ (instrD[23:0], immSrcD, extImmD);
+DECODER controlUnit_ (instrD[27:26], instrD[25:20], instrD[15:12], 
 							 flagWriteD, pcSrcD, regWriteD, memWriteD, memToRegD, aluSrcD, immSrcD, regSrcD, 
 							 aluControlD, branchD);
 							 
@@ -52,9 +52,9 @@ logic pcSrcE, regWriteE, memWriteE, memToRegE, aluSrcE, branchE, flushE;
 logic [3:0] flagsD, flagsE, condE, WA3E, RA1E, RA2E;
 logic [WIDTH-1:0] RD1E, RD2E, extImmE;
 
-FLOPCLR #(WIDTH) decode_exe (clk, reset, flushE, RD1, RD2, extImmD, instrD[WIDTH-17:WIDTH-20], pcSrcD, regWriteD,
+FLOPCLR #(WIDTH) decode_exe (clk, reset, flushE, RD1, RD2, extImmD, instrD[15:12], pcSrcD, regWriteD,
 									memToRegD, memWriteD, branchD, aluSrcD, flagWriteD, aluControlD, 
-									flagsD, instrD[WIDTH-1:WIDTH-4],	flagsE, condE, flagWriteE, aluControlE, 
+									flagsD, instrD[31:28],	flagsE, condE, flagWriteE, aluControlE, 
 									pcSrcE, regWriteE, memWriteE, memToRegE, aluSrcE, branchE, WA3E, 
 									RD1E, RD2E, extImmE, RAD1, RAD2, RA1E, RA2E);
 								
@@ -91,7 +91,7 @@ FLOPMEM #(WIDTH) exe_mem (clk, reset, aluResultE, srcXE, WA3E, pcSrcX, regWriteX
 
 //MEM - WB Register
 
-logic [31:0] readDataW, aluOutW;
+logic [WIDTH-1:0] readDataW, aluOutW;
 logic memToRegW;
 
 FLOPWB #(WIDTH) mem_wb (clk, reset, pcSrcM, regWriteM, memToRegM, WA3M, aluResultM, readDataM,

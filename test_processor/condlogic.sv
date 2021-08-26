@@ -1,7 +1,5 @@
 module CONDLOGIC (input logic clk, reset,
-						input logic [3:0] Cond,
-						input logic [3:0] ALUFlags,
-						input logic [3:0] prevFlags,
+						input logic [3:0] Cond, ALUFlags, prevFlags,
 						input logic [1:0] FlagW,
 						input logic PCS, RegW, MemW,
 						output logic PCSrc, RegWrite, MemWrite, CondEx,

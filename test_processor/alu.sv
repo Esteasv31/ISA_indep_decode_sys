@@ -13,7 +13,7 @@ ADD_CARRY #(WIDTH) adder_carry (a, n, aluControl[0], sum, cOut);
 
 assign c = aluControl[0] ? (aluControl[1] ? (a | b) : (sum) ) : (aluControl[1] ? (a & b) : (sum) );
 
-assign aluFlags[0] = (~(aluControl[0] ^ a[WIDTH-1] ^ b[WIDTH-1])) & (a[WIDTH-1] ^ sum[WIDTH-1] & (~aluControl[1]));
+assign aluFlags[0] = (~(aluControl[0] ^ a[WIDTH-1] ^ b[WIDTH-1])) & (a[WIDTH-1] ^ sum[WIDTH-1]) & (~aluControl[1]);
 
 assign aluFlags[1] = (~aluControl[1]) & (cOut);
 
