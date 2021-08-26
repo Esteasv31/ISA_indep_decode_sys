@@ -1,0 +1,281 @@
+# Reading pref.tcl
+# do ARM_v8_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying F:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+F:/TFG/ISA_indep_decode_sys/test_processor {F:/TFG/ISA_indep_decode_sys/test_processor/adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:10:22 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+F:/TFG/ISA_indep_decode_sys/test_processor" F:/TFG/ISA_indep_decode_sys/test_processor/adder.sv 
+# -- Compiling module ADD
+# 
+# Top level modules:
+# 	ADD
+# End time: 22:10:22 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+F:/TFG/ISA_indep_decode_sys/test_processor {F:/TFG/ISA_indep_decode_sys/test_processor/adder_carry.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:10:22 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+F:/TFG/ISA_indep_decode_sys/test_processor" F:/TFG/ISA_indep_decode_sys/test_processor/adder_carry.sv 
+# -- Compiling module ADD_CARRY
+# 
+# Top level modules:
+# 	ADD_CARRY
+# End time: 22:10:22 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+F:/TFG/ISA_indep_decode_sys/test_processor {F:/TFG/ISA_indep_decode_sys/test_processor/alu.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:10:22 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+F:/TFG/ISA_indep_decode_sys/test_processor" F:/TFG/ISA_indep_decode_sys/test_processor/alu.sv 
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# End time: 22:10:22 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+F:/TFG/ISA_indep_decode_sys/test_processor {F:/TFG/ISA_indep_decode_sys/test_processor/arm.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:10:22 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+F:/TFG/ISA_indep_decode_sys/test_processor" F:/TFG/ISA_indep_decode_sys/test_processor/arm.sv 
+# -- Compiling module ARM
+# 
+# Top level modules:
+# 	ARM
+# End time: 22:10:22 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+F:/TFG/ISA_indep_decode_sys/test_processor {F:/TFG/ISA_indep_decode_sys/test_processor/mux2.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:10:22 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+F:/TFG/ISA_indep_decode_sys/test_processor" F:/TFG/ISA_indep_decode_sys/test_processor/mux2.sv 
+# -- Compiling module MUX2
+# 
+# Top level modules:
+# 	MUX2
+# End time: 22:10:22 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+F:/TFG/ISA_indep_decode_sys/test_processor {F:/TFG/ISA_indep_decode_sys/test_processor/flopr.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:10:22 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+F:/TFG/ISA_indep_decode_sys/test_processor" F:/TFG/ISA_indep_decode_sys/test_processor/flopr.sv 
+# -- Compiling module FLOPR
+# 
+# Top level modules:
+# 	FLOPR
+# End time: 22:10:22 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+F:/TFG/ISA_indep_decode_sys/test_processor {F:/TFG/ISA_indep_decode_sys/test_processor/flopenclr.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:10:22 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+F:/TFG/ISA_indep_decode_sys/test_processor" F:/TFG/ISA_indep_decode_sys/test_processor/flopenclr.sv 
+# -- Compiling module FLOPENCLR
+# 
+# Top level modules:
+# 	FLOPENCLR
+# End time: 22:10:22 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+F:/TFG/ISA_indep_decode_sys/test_processor {F:/TFG/ISA_indep_decode_sys/test_processor/regfile.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:10:22 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+F:/TFG/ISA_indep_decode_sys/test_processor" F:/TFG/ISA_indep_decode_sys/test_processor/regfile.sv 
+# -- Compiling module REGFILE
+# 
+# Top level modules:
+# 	REGFILE
+# End time: 22:10:22 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+F:/TFG/ISA_indep_decode_sys/test_processor {F:/TFG/ISA_indep_decode_sys/test_processor/extend.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:10:22 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+F:/TFG/ISA_indep_decode_sys/test_processor" F:/TFG/ISA_indep_decode_sys/test_processor/extend.sv 
+# -- Compiling module EXTEND
+# 
+# Top level modules:
+# 	EXTEND
+# End time: 22:10:23 on Aug 18,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+F:/TFG/ISA_indep_decode_sys/test_processor {F:/TFG/ISA_indep_decode_sys/test_processor/decoder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:10:23 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+F:/TFG/ISA_indep_decode_sys/test_processor" F:/TFG/ISA_indep_decode_sys/test_processor/decoder.sv 
+# -- Compiling module DECODER
+# 
+# Top level modules:
+# 	DECODER
+# End time: 22:10:23 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+F:/TFG/ISA_indep_decode_sys/test_processor {F:/TFG/ISA_indep_decode_sys/test_processor/flopclr.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:10:23 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+F:/TFG/ISA_indep_decode_sys/test_processor" F:/TFG/ISA_indep_decode_sys/test_processor/flopclr.sv 
+# -- Compiling module FLOPCLR
+# 
+# Top level modules:
+# 	FLOPCLR
+# End time: 22:10:23 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+F:/TFG/ISA_indep_decode_sys/test_processor {F:/TFG/ISA_indep_decode_sys/test_processor/flopenr.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:10:23 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+F:/TFG/ISA_indep_decode_sys/test_processor" F:/TFG/ISA_indep_decode_sys/test_processor/flopenr.sv 
+# -- Compiling module FLOPENR
+# 
+# Top level modules:
+# 	FLOPENR
+# End time: 22:10:23 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+F:/TFG/ISA_indep_decode_sys/test_processor {F:/TFG/ISA_indep_decode_sys/test_processor/condcheck.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:10:23 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+F:/TFG/ISA_indep_decode_sys/test_processor" F:/TFG/ISA_indep_decode_sys/test_processor/condcheck.sv 
+# -- Compiling module CONDCHECK
+# 
+# Top level modules:
+# 	CONDCHECK
+# End time: 22:10:23 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+F:/TFG/ISA_indep_decode_sys/test_processor {F:/TFG/ISA_indep_decode_sys/test_processor/condlogic.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:10:23 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+F:/TFG/ISA_indep_decode_sys/test_processor" F:/TFG/ISA_indep_decode_sys/test_processor/condlogic.sv 
+# -- Compiling module CONDLOGIC
+# 
+# Top level modules:
+# 	CONDLOGIC
+# End time: 22:10:23 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+F:/TFG/ISA_indep_decode_sys/test_processor {F:/TFG/ISA_indep_decode_sys/test_processor/flopmem.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:10:23 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+F:/TFG/ISA_indep_decode_sys/test_processor" F:/TFG/ISA_indep_decode_sys/test_processor/flopmem.sv 
+# -- Compiling module FLOPMEM
+# 
+# Top level modules:
+# 	FLOPMEM
+# End time: 22:10:23 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+F:/TFG/ISA_indep_decode_sys/test_processor {F:/TFG/ISA_indep_decode_sys/test_processor/flopwb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:10:23 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+F:/TFG/ISA_indep_decode_sys/test_processor" F:/TFG/ISA_indep_decode_sys/test_processor/flopwb.sv 
+# -- Compiling module FLOPWB
+# 
+# Top level modules:
+# 	FLOPWB
+# End time: 22:10:23 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+F:/TFG/ISA_indep_decode_sys/test_processor {F:/TFG/ISA_indep_decode_sys/test_processor/hazarU.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:10:23 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+F:/TFG/ISA_indep_decode_sys/test_processor" F:/TFG/ISA_indep_decode_sys/test_processor/hazarU.sv 
+# -- Compiling module HAZARDU
+# 
+# Top level modules:
+# 	HAZARDU
+# End time: 22:10:23 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+F:/TFG/ISA_indep_decode_sys/test_processor {F:/TFG/ISA_indep_decode_sys/test_processor/dmem.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:10:23 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+F:/TFG/ISA_indep_decode_sys/test_processor" F:/TFG/ISA_indep_decode_sys/test_processor/dmem.sv 
+# -- Compiling module dmem
+# 
+# Top level modules:
+# 	dmem
+# End time: 22:10:23 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+F:/TFG/ISA_indep_decode_sys/test_processor {F:/TFG/ISA_indep_decode_sys/test_processor/imem.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:10:23 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+F:/TFG/ISA_indep_decode_sys/test_processor" F:/TFG/ISA_indep_decode_sys/test_processor/imem.sv 
+# -- Compiling module imem
+# 
+# Top level modules:
+# 	imem
+# End time: 22:10:23 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+F:/TFG/ISA_indep_decode_sys/test_processor {F:/TFG/ISA_indep_decode_sys/test_processor/top.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:10:23 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+F:/TFG/ISA_indep_decode_sys/test_processor" F:/TFG/ISA_indep_decode_sys/test_processor/top.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 22:10:23 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+F:/TFG/ISA_indep_decode_sys/test_processor {F:/TFG/ISA_indep_decode_sys/test_processor/testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:10:23 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+F:/TFG/ISA_indep_decode_sys/test_processor" F:/TFG/ISA_indep_decode_sys/test_processor/testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 22:10:23 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" testbench 
+# Start time: 22:10:23 on Aug 18,2021
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.top
+# Loading work.ARM
+# Loading work.MUX2
+# Loading work.FLOPR
+# Loading work.ADD
+# Loading work.FLOPENCLR
+# Loading work.REGFILE
+# Loading work.EXTEND
+# Loading work.DECODER
+# Loading work.FLOPCLR
+# Loading work.ALU
+# Loading work.ADD_CARRY
+# Loading work.CONDLOGIC
+# Loading work.FLOPENR
+# Loading work.CONDCHECK
+# Loading work.FLOPMEM
+# Loading work.FLOPWB
+# Loading work.HAZARDU
+# Loading work.imem
+# Loading work.dmem
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+#          0
+#          0
+#          4
+#          8
+#         12
+#         16
+#         20
+#         24
+#         28
+#         32
+#         36
+#         40
+#         44
+#         48
+#         52
+#         56
+#         60
+#         64
+#         68
+# Simulation failed
+# ** Note: $stop    : F:/TFG/ISA_indep_decode_sys/test_processor/testbench.sv(36)
+#    Time: 390 ps  Iteration: 1  Instance: /testbench
+# Break in Module testbench at F:/TFG/ISA_indep_decode_sys/test_processor/testbench.sv line 36
+# End time: 22:16:28 on Aug 18,2021, Elapsed time: 0:06:05
+# Errors: 0, Warnings: 0

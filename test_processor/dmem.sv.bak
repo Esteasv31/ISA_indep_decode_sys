@@ -1,0 +1,15 @@
+module dmem #(parameter WIDTH = 32,
+				  parameter SIZE = 64)
+				 (input logic clk, we,
+				  input logic [WIDTH-1:0] a, b, wd,
+				 output logic [WIDTH-1:0] rd1, rd2);
+				
+logic [WIDTH-1:0] RAM[SIZE-1:0];
+
+assign rd1 = RAM[a[WIDTH-1:2]]; // word aligned
+assign rd2 = RAM[b[WIDTH-1:2]]; // word aligned
+
+always_ff @(posedge clk)
+	if (we) RAM[a[31:2]] <= wd;
+
+endmodule

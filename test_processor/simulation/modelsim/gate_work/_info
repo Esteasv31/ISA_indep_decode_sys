@@ -1,0 +1,63 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dF:/TFG/ISA_indep_decode_sys/test_processor/simulation/modelsim
+vtestbench
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1629089235
+!i10b 1
+!s100 H<k?n4[oaKk;Sj3U;X[6B0
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+In>e8]ARXF`PKYBO6AKTPK1
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1629088958
+8F:/TFG/ISA_indep_decode_sys/test_processor/testbench.sv
+FF:/TFG/ISA_indep_decode_sys/test_processor/testbench.sv
+!i122 1
+L0 1 39
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1629089235.000000
+!s107 F:/TFG/ISA_indep_decode_sys/test_processor/testbench.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+F:/TFG/ISA_indep_decode_sys/test_processor|F:/TFG/ISA_indep_decode_sys/test_processor/testbench.sv|
+!i113 1
+Z7 o-sv -work work
+!s92 -sv -work work +incdir+F:/TFG/ISA_indep_decode_sys/test_processor
+Z8 tCvgOpt 0
+vtop
+R1
+R2
+!i10b 1
+!s100 62Pad:[KKY^HhH=TmimC63
+R3
+IkzlkdlD18KFO4dF702n1]1
+R4
+S1
+R0
+w1629089230
+8ARM_v8.svo
+FARM_v8.svo
+!i122 0
+L0 32 42628
+R5
+r1
+!s85 0
+31
+R6
+!s107 ARM_v8.svo|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+.|ARM_v8.svo|
+!i113 1
+R7
+!s92 -sv -work work +incdir+.
+R8

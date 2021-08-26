@@ -127,3 +127,8 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+test_processor/db/ARM_v8.quiproj.16296.rdr.flock
+test_processor/output_files/*
+test_processor/db/*
+test_processor/incremental_db/*
+
