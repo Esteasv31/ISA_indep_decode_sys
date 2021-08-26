@@ -1,0 +1,10 @@
+module top #(parameter WIDTH = 32,
+				 parameter SIZE = 102)
+			   (input logic clk, reset,
+				output logic [WIDTH-1:0] WriteData, DataAdrA, PC, Instr, ReadData,
+				output logic MemWrite);
+
+
+adderTestBench #(WIDTH,"add_output.txt") adderTestBench ();
+
+endmodule
