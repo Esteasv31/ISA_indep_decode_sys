@@ -29,7 +29,7 @@ initial begin
 	for (i = 0; i<5; i=i+1) begin
 		a = values[i];
 		b = values[i+5];
-		cin = values[i + 10]
+		cin = values[i + 10];
 		@(posedge clk);
 		$display("ADD %d + %d + %d = %d ; %d", a, b, cin, c, cout);
 		$fwrite(f,"%b\n",   c);
