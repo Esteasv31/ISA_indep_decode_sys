@@ -61,9 +61,35 @@ R7
 R8
 R9
 n@a@d@d_@c@a@r@r@y
+vadderCarryTestBench
+R1
+Z10 !s110 1630029878
+!i10b 1
+!s100 UIUjPNh?AN=6MOzGNLBCX3
+R3
+IPS?T;mE=k6nadf7HfKcjh0
+R4
+S1
+R0
+w1630029768
+8F:/TFG/ISA_indep_decode_sys/verification/unit_testing/adder_carry_testbench.sv
+FF:/TFG/ISA_indep_decode_sys/verification/unit_testing/adder_carry_testbench.sv
+!i122 71
+L0 1 42
+R6
+r1
+!s85 0
+31
+!s108 1630029877.000000
+!s107 F:/TFG/ISA_indep_decode_sys/verification/unit_testing/adder_carry_testbench.sv|
+!s90 -reportprogress|300|-work|work|F:/TFG/ISA_indep_decode_sys/verification/unit_testing/adder_carry_testbench.sv|
+!i113 1
+R8
+R9
+nadder@carry@test@bench
 vadderTestBench
 R1
-Z10 !s110 1629952883
+R10
 !i10b 1
 !s100 G=?8_O8lkTWhPH7NLoZOg3
 R3
@@ -71,16 +97,16 @@ I54UhXJkjHCin6;=0b_b9a3
 R4
 S1
 R0
-w1629952853
+w1630027958
 8F:/TFG/ISA_indep_decode_sys/verification/unit_testing/adder_testbench.sv
 FF:/TFG/ISA_indep_decode_sys/verification/unit_testing/adder_testbench.sv
-!i122 69
+!i122 72
 L0 1 40
 R6
 r1
 !s85 0
 31
-Z11 !s108 1629952883.000000
+Z11 !s108 1630029878.000000
 !s107 F:/TFG/ISA_indep_decode_sys/verification/unit_testing/adder_testbench.sv|
 !s90 -reportprogress|300|-work|work|F:/TFG/ISA_indep_decode_sys/verification/unit_testing/adder_testbench.sv|
 !i113 1
@@ -113,6 +139,32 @@ R7
 R8
 R9
 n@a@l@u
+valuTestBench
+R1
+R10
+!i10b 1
+!s100 kVSjjkJ_YTI];[I`m[lnC2
+R3
+IGN6=T4CfS@2Dm_C4dNOZR2
+R4
+S1
+R0
+w1630028215
+8F:/TFG/ISA_indep_decode_sys/verification/unit_testing/alu_testbench.sv
+FF:/TFG/ISA_indep_decode_sys/verification/unit_testing/alu_testbench.sv
+!i122 73
+L0 1 44
+R6
+r1
+!s85 0
+31
+R11
+!s107 F:/TFG/ISA_indep_decode_sys/verification/unit_testing/alu_testbench.sv|
+!s90 -reportprogress|300|-work|work|F:/TFG/ISA_indep_decode_sys/verification/unit_testing/alu_testbench.sv|
+!i113 1
+R8
+R9
+nalu@test@bench
 vCONDCHECK
 R1
 R12
@@ -505,17 +557,17 @@ vtop
 R1
 R10
 !i10b 1
-!s100 oEeeU8HbGUf0@oNi60A8z3
+!s100 6V<R>f]bc>]@B;8iLM3;j3
 R3
-II=`ZBn=7di;n`5F5U[oF90
+IInWXHlRH1^4?e?1Nej9?l1
 R4
 S1
 R0
-w1629949619
+w1630027858
 8F:/TFG/ISA_indep_decode_sys/verification/unit_testing/top.sv
 FF:/TFG/ISA_indep_decode_sys/verification/unit_testing/top.sv
-!i122 70
-L0 1 6
+!i122 74
+L0 1 13
 R6
 r1
 !s85 0
