@@ -10,4 +10,7 @@ adderCarryTestBench #(WIDTH, "outputs/addCarry_output.txt", "inputs/addCarry_inp
 //alu testbench
 aluTestBench #(WIDTH, "outputs/alu_output.txt", "inputs/alu_input.txt") aluTest ();
 
+//conditional logic testbench
+condcheckTestBench #(WIDTH, "outputs/condCheck_output.txt", "inputs/condCheck_input.txt") condCheckTest ();
+
 endmodule
