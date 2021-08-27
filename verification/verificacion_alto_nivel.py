@@ -49,7 +49,7 @@ for i, name in enumerate(files_name):
     for index, line in enumerate(validate_lines):
         # check if expected result is different from the output given
         if(line != output_lines[index]):
-            print(red_text + f"ERROR: wrong result." + end_line + " Value expected " + green_text + f"{line} " + end_line + "value given " + red_text + f"{output_lines[index]}  " + end_line)
+            print(red_text + f"ERROR: wrong result  LINE {index+1}." + end_line + " Value expected " + green_text + f"{line} " + end_line + "value given " + red_text + f"{output_lines[index]}  " + end_line)
             result = False
             break
         result = True
