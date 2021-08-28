@@ -1,4 +1,5 @@
-module top #(parameter WIDTH = 32)
+module top #(parameter WIDTH = 32,
+				 parameter SIZE = 23)
 			   ();
 
 // simple adder testbench
@@ -17,6 +18,9 @@ condcheckTestBench #(WIDTH, "outputs/condCheck_output.txt", "inputs/condCheck_in
 
 //mux testbench
 muxTestBench #(WIDTH, "outputs/mux_output.txt", "inputs/mux_input.txt") muxTest ();
+
+//imem testbench
+imemTestBench #(WIDTH, SIZE, "inputs/imem_data.txt", "outputs/imem_output.txt", "inputs/imem_input.txt") imemTest ();
 
 
 endmodule
