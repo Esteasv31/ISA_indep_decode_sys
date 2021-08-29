@@ -28,4 +28,7 @@ dmemTestBench #(WIDTH, SIZE, "outputs/dmem_output.txt", "inputs/dmem_input.txt")
 //dmem testbench
 extendTestBench #(WIDTH, "outputs/extend_output.txt", "inputs/extend_input.txt") extendTest ();
 
+//regfile testbench
+regfileTestBench #(WIDTH, "outputs/regFile_output.txt", "inputs/regFile_input.txt") regfileTest ();
+
 endmodule
