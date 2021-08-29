@@ -31,4 +31,7 @@ extendTestBench #(WIDTH, "outputs/extend_output.txt", "inputs/extend_input.txt")
 //regfile testbench
 regfileTestBench #(WIDTH, "outputs/regFile_output.txt", "inputs/regFile_input.txt") regfileTest ();
 
+//flopr testbench
+floprTestBench #(WIDTH, "outputs/flopr_output.txt", "inputs/flopr_input.txt") floprTest ();
+
 endmodule
