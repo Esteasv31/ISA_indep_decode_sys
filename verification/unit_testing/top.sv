@@ -25,5 +25,7 @@ imemTestBench #(WIDTH, SIZE, "inputs/imem_data.txt", "outputs/imem_output.txt", 
 //dmem testbench
 dmemTestBench #(WIDTH, SIZE, "outputs/dmem_output.txt", "inputs/dmem_input.txt") imemTest ();
 
+//dmem testbench
+extendTestBench #(WIDTH, "outputs/extend_output.txt", "inputs/extend_input.txt") extendTest ();
 
 endmodule
