@@ -1,16 +1,15 @@
-module imemTestBench #(parameter WIDTH = 32,
+module dmemTestBench #(parameter WIDTH = 32,
 							  parameter SIZE = 64,
-				           parameter FILE = "memfile.dat",
-							  parameter outputFile = "imem_output.txt",
-							  parameter inputFile = "imem_input.txt")
+							  parameter outputFile = "dmem_output.txt",
+							  parameter inputFile = "dmem_input.txt")
 						    ();
 
-reg   clk,reset;
-logic [WIDTH-1:0] a, rd;
+reg   clk,reset, we;
+logic [WIDTH-1:0] a, wd, rd;
 logic [WIDTH-1:0] values[4:0];
 integer f, i;
 
-imem #(WIDTH, SIZE, FILE) mem (a, rd);
+dmem #(WIDTH, SIZE) dmem (clk, we, a, wd, rd);
 
 always #5 clk=~clk;
 
@@ -30,8 +29,10 @@ initial begin
    @(posedge clk);   //Wait for fisrt clock out of reset
 	for (i = 0; i<5; i=i+1) begin
 		a = values[i];
+		we = values[];
+		wd = values[];
 		@(posedge clk);
-		$display("A %d ; RD %b", a, rd);
+		$display("A %d ; we = %b ; WD = %d ; RD %d", a, we, wd, rd);
 		$fwrite(f,"%h\n",   rd);
 	end
 	$fclose(f);
