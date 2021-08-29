@@ -1,6 +1,6 @@
 module imemTestBench #(parameter WIDTH = 32,
 							  parameter SIZE = 64,
-				           parameter FILE = "memfile.dat"
+				           parameter FILE = "memfile.dat",
 							  parameter outputFile = "mux_output.txt",
 							  parameter inputFile = "mux_input.txt")
 						    ();
