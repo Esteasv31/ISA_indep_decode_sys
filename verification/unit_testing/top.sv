@@ -13,7 +13,6 @@ aluTestBench #(WIDTH, "outputs/alu_output.txt", "inputs/alu_input.txt") aluTest 
 
 //conditional logic testbench
 condcheckTestBench #(WIDTH, "outputs/condCheck_output.txt", "inputs/condCheck_input.txt") condCheckTest ();
-
 //condlogicTestBench #(WIDTH, "outputs/condLogic_output.txt", "inputs/condLogic_input.txt") condLogicTest ();
 
 //mux testbench
@@ -45,5 +44,8 @@ flopclrTestBench #(WIDTH, "outputs/flopclr_output.txt", "inputs/flopclr_input.tx
 
 //flopwb testbench
 flopwbTestBench #(WIDTH, "outputs/flopwb_output.txt", "inputs/flopwb_input.txt") flopwbTest ();
+
+//hazardU testbench
+hazardUTestBench #(WIDTH, "outputs/hazardU_output.txt", "inputs/hazardU_input.txt") hazardUTest ();
 
 endmodule
