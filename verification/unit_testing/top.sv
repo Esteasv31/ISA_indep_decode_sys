@@ -48,4 +48,7 @@ flopwbTestBench #(WIDTH, "outputs/flopwb_output.txt", "inputs/flopwb_input.txt")
 //hazardU testbench
 hazardUTestBench #(WIDTH, "outputs/hazardU_output.txt", "inputs/hazardU_input.txt") hazardUTest ();
 
+//decoder testbench
+decoderTestBench #(WIDTH, "outputs/decoder_output.txt", "inputs/imem_data.txt") decoderTest ();
+
 endmodule
