@@ -34,10 +34,13 @@ regfileTestBench #(WIDTH, "outputs/regFile_output.txt", "inputs/regFile_input.tx
 //flopr testbench
 floprTestBench #(WIDTH, "outputs/flopr_output.txt", "inputs/flopr_input.txt") floprTest ();
 
-//flopr testbench
+//flopmem testbench
 flopmemTestBench #(WIDTH, "outputs/flopmem_output.txt", "inputs/flopmem_input.txt") flopmemTest ();
 
-//flopr testbench
+//flopenr testbench
 flopenrTestBench #(WIDTH, "outputs/flopenr_output.txt", "inputs/flopenr_input.txt") flopenrTest ();
+
+//flopclr testbench
+flopclrTestBench #(WIDTH, "outputs/flopclr_output.txt", "inputs/flopclr_input.txt") flopclrTest ();
 
 endmodule
