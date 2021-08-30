@@ -7,7 +7,7 @@ logic clk, reset, en, pcsrc, regW, memW, memtoreg, PCSrcM, RegWriteM, MemWriteM,
 logic [WIDTH-1:0] aluResult, Wdata, ALUResultM, WriteDataM;
 logic [3:0] wa3e, WA3M;
 logic [71:0] values[4:0];
-logic [71:0] a
+logic [71:0] a;
 integer f, i;
 
 FLOPMEM #(WIDTH) flopmem (clk, reset, aluResult, Wdata, wa3e, pcsrc, regW, memW, memtoreg, PCSrcM, RegWriteM, MemWriteM, MemtoRegM, WA3M, ALUResultM, WriteDataM);

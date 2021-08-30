@@ -34,12 +34,12 @@ initial begin
 		ra1 = a[11:8];
 		ra2 = a[7:4];
 		wa3 = a[3:0];
-		wd3 values[i+5];
+		wd3 = values[i+5];
 		@(posedge clk);
 		$display("we3 = %b ; ra1 = %d ; ra2 = %d ; wa3 = %d ; wd3 = %d ; r15 = %h ;rd1 = %d ; rd2 = %d", we3, ra1, ra2, wa3, wd3, r15, rd1, rd2);
 		$fwrite(f,"%b\n", rd1);
 		$fwrite(f,"%b\n", rd2);
-		r15 = r15 + 32'b4;
+		r15 = r15 + 32'd4;
 	end
 	$fclose(f);
 	

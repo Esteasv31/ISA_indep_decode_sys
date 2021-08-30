@@ -8,7 +8,7 @@ logic [WIDTH-1:0] rd1, rd2, extImm, RD1, RD2, EXTIMM;
 logic [3:0] wa3d, flagsd, condd, FlagsE, CondE, WA3E, ra1d, ra2d, RA1E, RA2E;
 logic [1:0] flagwrited, alucontrold, FlagWriteE, ALUControlE;
 logic [71:0] values[4:0];
-logic [71:0] a
+logic [71:0] a;
 integer f, i;
 
 FLOPCLR #(WIDTH) flopclr (clk, reset, clr, rd1, rd2, extImm, wa3d, pcsrcD, regwrited, memtoregd, memwrited, branchd, alusrcd, flagwrited, alucontrold, flagsd, condd,

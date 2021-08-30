@@ -4,10 +4,10 @@ module flopwbTestBench #(parameter WIDTH = 32,
 							    ();
 					
 logic clk, reset, prsrc, regwrite, memtoreg, PCSrcW, RegWriteW, MemtoRegW;
-logic [WIDTH-1:0] Aludata, readData, ReadDataW, ALUOutW,;
+logic [WIDTH-1:0] Aludata, readData, ReadDataW, ALUOutW;
 logic [3:0] wa3m, WA3W;
 logic [71:0] values[4:0];
-logic [71:0] a
+logic [71:0] a;
 integer f, i;
 
 FLOPWB #(WIDTH) flopwb (clk, reset, prsrc, regwrite, memtoreg, wa3m, Aludata, readData, ReadDataW, ALUOutW, PCSrcW, RegWriteW, MemtoRegW);
