@@ -43,4 +43,7 @@ flopenrTestBench #(WIDTH, "outputs/flopenr_output.txt", "inputs/flopenr_input.tx
 //flopclr testbench
 flopclrTestBench #(WIDTH, "outputs/flopclr_output.txt", "inputs/flopclr_input.txt") flopclrTest ();
 
+//flopwb testbench
+flopwbTestBench #(WIDTH, "outputs/flopwb_output.txt", "inputs/flopwb_input.txt") flopwbTest ();
+
 endmodule
