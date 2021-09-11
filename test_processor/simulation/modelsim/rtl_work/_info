@@ -8,32 +8,32 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dF:/TFG/ISA_indep_decode_sys/test_processor/simulation/modelsim
+Z0 dC:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor/simulation/modelsim
 vADD
 Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z2 !s110 1629346222
+Z2 !s110 1631172111
 !i10b 1
 !s100 =V9?boj4U1A]IAP<CJVE10
 Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
-IFFGLiZ8lWW^C?U;:`N]JL2
+IWQ<>4h311;4G?W>o:]^P<3
 Z4 VDg1SIo80bB@j0V0VzS_@n1
 S1
 R0
-w1629069978
-8F:/TFG/ISA_indep_decode_sys/test_processor/adder.sv
-FF:/TFG/ISA_indep_decode_sys/test_processor/adder.sv
+Z5 w1629938562
+8C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor/adder.sv
+FC:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor/adder.sv
 !i122 0
 L0 1 7
-Z5 OV;L;2020.1;71
+Z6 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z6 !s108 1629346222.000000
-!s107 F:/TFG/ISA_indep_decode_sys/test_processor/adder.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+F:/TFG/ISA_indep_decode_sys/test_processor|F:/TFG/ISA_indep_decode_sys/test_processor/adder.sv|
+!s108 1631172110.000000
+!s107 C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor/adder.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor|C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor/adder.sv|
 !i113 1
 Z7 o-sv -work work
-Z8 !s92 -sv -work work +incdir+F:/TFG/ISA_indep_decode_sys/test_processor
+Z8 !s92 -sv -work work +incdir+C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor
 Z9 tCvgOpt 0
 n@a@d@d
 vADD_CARRY
@@ -42,22 +42,22 @@ R2
 !i10b 1
 !s100 O]JkQ4aS5?J<P:6U8^4gW0
 R3
-I:65:LiR8^OVn:NE0f3_H11
+ITN9h9U123<3>LSfkM@?:01
 R4
 S1
 R0
-w1629052305
-8F:/TFG/ISA_indep_decode_sys/test_processor/adder_carry.sv
-FF:/TFG/ISA_indep_decode_sys/test_processor/adder_carry.sv
+R5
+8C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor/adder_carry.sv
+FC:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor/adder_carry.sv
 !i122 1
 L0 1 9
-R5
+R6
 r1
 !s85 0
 31
-R6
-!s107 F:/TFG/ISA_indep_decode_sys/test_processor/adder_carry.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+F:/TFG/ISA_indep_decode_sys/test_processor|F:/TFG/ISA_indep_decode_sys/test_processor/adder_carry.sv|
+Z10 !s108 1631172111.000000
+!s107 C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor/adder_carry.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor|C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor/adder_carry.sv|
 !i113 1
 R7
 R8
@@ -69,22 +69,22 @@ R2
 !i10b 1
 !s100 WcG`>dhg7z_ElKB3jELHk2
 R3
-IM]^2S58`f9<1MiXd[aDE72
+IhG;1a6`95dH<KK>:2DNLW1
 R4
 S1
 R0
-w1629267607
-8F:/TFG/ISA_indep_decode_sys/test_processor/alu.sv
-FF:/TFG/ISA_indep_decode_sys/test_processor/alu.sv
-!i122 2
-Z10 L0 1 24
 R5
+8C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor/alu.sv
+FC:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor/alu.sv
+!i122 2
+Z11 L0 1 24
+R6
 r1
 !s85 0
 31
-R6
-!s107 F:/TFG/ISA_indep_decode_sys/test_processor/alu.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+F:/TFG/ISA_indep_decode_sys/test_processor|F:/TFG/ISA_indep_decode_sys/test_processor/alu.sv|
+R10
+!s107 C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor/alu.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor|C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor/alu.sv|
 !i113 1
 R7
 R8
@@ -92,26 +92,26 @@ R9
 n@a@l@u
 vARM
 R1
-R2
+Z12 !s110 1631172112
 !i10b 1
-!s100 DCK1f5kgPb`8A3VI>lNIN2
+!s100 n<AbSC@U=e6TBaXkR01Zi2
 R3
-Ih`S7`W]E@nabHObL`^]EN1
+I;hO4ae_lX8C30_5EI=E?Y3
 R4
 S1
 R0
-w1629268098
-8F:/TFG/ISA_indep_decode_sys/test_processor/arm.sv
-FF:/TFG/ISA_indep_decode_sys/test_processor/arm.sv
+w1630300938
+8C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor/arm.sv
+FC:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor/arm.sv
 !i122 3
 L0 1 127
-R5
+R6
 r1
 !s85 0
 31
-R6
-!s107 F:/TFG/ISA_indep_decode_sys/test_processor/arm.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+F:/TFG/ISA_indep_decode_sys/test_processor|F:/TFG/ISA_indep_decode_sys/test_processor/arm.sv|
+R10
+!s107 C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor/arm.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor|C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor/arm.sv|
 !i113 1
 R7
 R8
@@ -119,26 +119,26 @@ R9
 n@a@r@m
 vCONDCHECK
 R1
-Z11 !s110 1629346223
+Z13 !s110 1631172114
 !i10b 1
-!s100 SMmO3:zCn3MCKI;zcdR651
+!s100 0@c?:]B7la<g^EOMEVO:U0
 R3
-I5nN^G9MOSgFmXoe=I_T[J2
+IXOACQ8@bZOV7kmYECzd]a3
 R4
 S1
 R0
-w1629341737
-8F:/TFG/ISA_indep_decode_sys/test_processor/condcheck.sv
-FF:/TFG/ISA_indep_decode_sys/test_processor/condcheck.sv
+w1630302164
+8C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor/condcheck.sv
+FC:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor/condcheck.sv
 !i122 12
-L0 1 29
-R5
+Z14 L0 1 30
+R6
 r1
 !s85 0
 31
-Z12 !s108 1629346223.000000
-!s107 F:/TFG/ISA_indep_decode_sys/test_processor/condcheck.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+F:/TFG/ISA_indep_decode_sys/test_processor|F:/TFG/ISA_indep_decode_sys/test_processor/condcheck.sv|
+Z15 !s108 1631172114.000000
+!s107 C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor/condcheck.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor|C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor/condcheck.sv|
 !i113 1
 R7
 R8
@@ -146,26 +146,26 @@ R9
 n@c@o@n@d@c@h@e@c@k
 vCONDLOGIC
 R1
-R11
+Z16 !s110 1631172115
 !i10b 1
-!s100 T38TV0JF4G8lHJQGk1BeF2
+!s100 N[HLfR8jCog?B0`Az3F5<3
 R3
-I>=>K@z_QR7iN5gg[Fo6YG0
+IbbONjg:0R?=;:[OASKaOM2
 R4
 S1
 R0
-w1629341968
-8F:/TFG/ISA_indep_decode_sys/test_processor/condlogic.sv
-FF:/TFG/ISA_indep_decode_sys/test_processor/condlogic.sv
+w1630300883
+8C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor/condlogic.sv
+FC:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor/condlogic.sv
 !i122 13
-R10
-R5
+R11
+R6
 r1
 !s85 0
 31
-R12
-!s107 F:/TFG/ISA_indep_decode_sys/test_processor/condlogic.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+F:/TFG/ISA_indep_decode_sys/test_processor|F:/TFG/ISA_indep_decode_sys/test_processor/condlogic.sv|
+Z17 !s108 1631172115.000000
+!s107 C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor/condlogic.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor|C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor/condlogic.sv|
 !i113 1
 R7
 R8
@@ -173,26 +173,26 @@ R9
 n@c@o@n@d@l@o@g@i@c
 vDECODER
 R1
-R11
+Z18 !s110 1631172113
 !i10b 1
-!s100 G4Kh7CibQi`9L`T65QECf3
+!s100 B>91ziA`aR:[1dkK_H:=]0
 R3
-IF?InUNgBO1@LK14j0UGg]2
+IYmMDVQaA>]7RlVNMP342I0
 R4
 S1
 R0
-w1629345697
-8F:/TFG/ISA_indep_decode_sys/test_processor/decoder.sv
-FF:/TFG/ISA_indep_decode_sys/test_processor/decoder.sv
+w1630301978
+8C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor/decoder.sv
+FC:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor/decoder.sv
 !i122 9
 L0 1 54
-R5
+R6
 r1
 !s85 0
 31
-R12
-!s107 F:/TFG/ISA_indep_decode_sys/test_processor/decoder.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+F:/TFG/ISA_indep_decode_sys/test_processor|F:/TFG/ISA_indep_decode_sys/test_processor/decoder.sv|
+Z19 !s108 1631172113.000000
+!s107 C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor/decoder.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor|C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor/decoder.sv|
 !i113 1
 R7
 R8
@@ -200,52 +200,52 @@ R9
 n@d@e@c@o@d@e@r
 vdmem
 R1
-R11
+Z20 !s110 1631172116
 !i10b 1
 !s100 lVQCTUJbJch7?kAAN<D@F1
 R3
-IIjd9LoXX5h=YI:Ca@n9ej0
+IYEB6DDd:I=Az>_1`;QRN32
 R4
 S1
 R0
-w1629069238
-8F:/TFG/ISA_indep_decode_sys/test_processor/dmem.sv
-FF:/TFG/ISA_indep_decode_sys/test_processor/dmem.sv
-!i122 17
-Z13 L0 1 14
 R5
+8C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor/dmem.sv
+FC:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor/dmem.sv
+!i122 17
+Z21 L0 1 14
+R6
 r1
 !s85 0
 31
-R12
-!s107 F:/TFG/ISA_indep_decode_sys/test_processor/dmem.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+F:/TFG/ISA_indep_decode_sys/test_processor|F:/TFG/ISA_indep_decode_sys/test_processor/dmem.sv|
+Z22 !s108 1631172116.000000
+!s107 C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor/dmem.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor|C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor/dmem.sv|
 !i113 1
 R7
 R8
 R9
 vEXTEND
 R1
-R11
+R18
 !i10b 1
 !s100 8R8LaCnoYhDo`3cBQ21hi3
 R3
-In5H>_M6::FJ8Dl>nY7l=[0
+I@>8B>mBljJ@V@9A6B^IfP2
 R4
 S1
 R0
-w1629250950
-8F:/TFG/ISA_indep_decode_sys/test_processor/extend.sv
-FF:/TFG/ISA_indep_decode_sys/test_processor/extend.sv
+R5
+8C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor/extend.sv
+FC:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor/extend.sv
 !i122 8
 L0 1 17
-R5
+R6
 r1
 !s85 0
 31
-R6
-!s107 F:/TFG/ISA_indep_decode_sys/test_processor/extend.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+F:/TFG/ISA_indep_decode_sys/test_processor|F:/TFG/ISA_indep_decode_sys/test_processor/extend.sv|
+R19
+!s107 C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor/extend.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor|C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor/extend.sv|
 !i113 1
 R7
 R8
@@ -253,26 +253,26 @@ R9
 n@e@x@t@e@n@d
 vFLOPCLR
 R1
-R11
+R13
 !i10b 1
 !s100 8SC?^5BPIz6:U3Hkl4RR;1
 R3
-Ij[GYK5R^?eKLdSclfPK]^1
+IhgVm<84z6FD?OP;^TK8XV0
 R4
 S1
 R0
-w1629254884
-8F:/TFG/ISA_indep_decode_sys/test_processor/flopclr.sv
-FF:/TFG/ISA_indep_decode_sys/test_processor/flopclr.sv
+R5
+8C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor/flopclr.sv
+FC:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor/flopclr.sv
 !i122 10
 L0 1 72
-R5
+R6
 r1
 !s85 0
 31
-R12
-!s107 F:/TFG/ISA_indep_decode_sys/test_processor/flopclr.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+F:/TFG/ISA_indep_decode_sys/test_processor|F:/TFG/ISA_indep_decode_sys/test_processor/flopclr.sv|
+R15
+!s107 C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor/flopclr.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor|C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor/flopclr.sv|
 !i113 1
 R7
 R8
@@ -280,26 +280,26 @@ R9
 n@f@l@o@p@c@l@r
 vFLOPENCLR
 R1
-R2
+R12
 !i10b 1
 !s100 b[6g:3PgVYT`b77RkNoRn3
 R3
-IX?ofG8>SBXk`9_BgE[HP<2
+I^A1MXJ`16P7jk:hE4cKhW1
 R4
 S1
 R0
-w1629344999
-8F:/TFG/ISA_indep_decode_sys/test_processor/flopenclr.sv
-FF:/TFG/ISA_indep_decode_sys/test_processor/flopenclr.sv
+R5
+8C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor/flopenclr.sv
+FC:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor/flopenclr.sv
 !i122 6
 L0 1 12
-R5
+R6
 r1
 !s85 0
 31
-R6
-!s107 F:/TFG/ISA_indep_decode_sys/test_processor/flopenclr.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+F:/TFG/ISA_indep_decode_sys/test_processor|F:/TFG/ISA_indep_decode_sys/test_processor/flopenclr.sv|
+Z23 !s108 1631172112.000000
+!s107 C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor/flopenclr.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor|C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor/flopenclr.sv|
 !i113 1
 R7
 R8
@@ -307,26 +307,26 @@ R9
 n@f@l@o@p@e@n@c@l@r
 vFLOPENR
 R1
-R11
+R13
 !i10b 1
 !s100 VDjNaeegFKC=TW`LZCaTn3
 R3
-I^`3hUB1<UA6>fHDe2o;[z0
+I5fcEiPP<ZG_LAm:?AU[I<2
 R4
 S1
 R0
-w1629268408
-8F:/TFG/ISA_indep_decode_sys/test_processor/flopenr.sv
-FF:/TFG/ISA_indep_decode_sys/test_processor/flopenr.sv
+R5
+8C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor/flopenr.sv
+FC:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor/flopenr.sv
 !i122 11
 L0 1 10
-R5
+R6
 r1
 !s85 0
 31
-R12
-!s107 F:/TFG/ISA_indep_decode_sys/test_processor/flopenr.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+F:/TFG/ISA_indep_decode_sys/test_processor|F:/TFG/ISA_indep_decode_sys/test_processor/flopenr.sv|
+R15
+!s107 C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor/flopenr.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor|C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor/flopenr.sv|
 !i113 1
 R7
 R8
@@ -334,26 +334,26 @@ R9
 n@f@l@o@p@e@n@r
 vFLOPMEM
 R1
-R11
+R16
 !i10b 1
 !s100 IH_3oC[i39mDD5VU0zTf32
 R3
-I9nC;6W`T8Y]?87g0ZzCU`0
+IMJ3V3Lk@eXREjXPjDIz6O2
 R4
 S1
 R0
-w1629065540
-8F:/TFG/ISA_indep_decode_sys/test_processor/flopmem.sv
-FF:/TFG/ISA_indep_decode_sys/test_processor/flopmem.sv
-!i122 14
-L0 1 30
 R5
+8C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor/flopmem.sv
+FC:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor/flopmem.sv
+!i122 14
+R14
+R6
 r1
 !s85 0
 31
-R12
-!s107 F:/TFG/ISA_indep_decode_sys/test_processor/flopmem.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+F:/TFG/ISA_indep_decode_sys/test_processor|F:/TFG/ISA_indep_decode_sys/test_processor/flopmem.sv|
+R17
+!s107 C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor/flopmem.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor|C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor/flopmem.sv|
 !i113 1
 R7
 R8
@@ -361,26 +361,26 @@ R9
 n@f@l@o@p@m@e@m
 vFLOPR
 R1
-R2
+R12
 !i10b 1
 !s100 XOMz[UVQ]am1]>aK>EW0S0
 R3
-IGR7eBB0SZ8WR>[]z5lR930
+Ic:HDg]^7fkPE>fmDmInLP3
 R4
 S1
 R0
-w1629268431
-8F:/TFG/ISA_indep_decode_sys/test_processor/flopr.sv
-FF:/TFG/ISA_indep_decode_sys/test_processor/flopr.sv
+R5
+8C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor/flopr.sv
+FC:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor/flopr.sv
 !i122 5
 L0 1 11
-R5
+R6
 r1
 !s85 0
 31
-R6
-!s107 F:/TFG/ISA_indep_decode_sys/test_processor/flopr.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+F:/TFG/ISA_indep_decode_sys/test_processor|F:/TFG/ISA_indep_decode_sys/test_processor/flopr.sv|
+R23
+!s107 C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor/flopr.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor|C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor/flopr.sv|
 !i113 1
 R7
 R8
@@ -388,26 +388,26 @@ R9
 n@f@l@o@p@r
 vFLOPWB
 R1
-R11
+R20
 !i10b 1
 !s100 :X1czMSTVFO>=;<0FJ0gX2
 R3
-I1JB42558`JN5Skelhj5>90
+I?_5B2:2`]iYT20iDEHiA?0
 R4
 S1
 R0
-w1629065858
-8F:/TFG/ISA_indep_decode_sys/test_processor/flopwb.sv
-FF:/TFG/ISA_indep_decode_sys/test_processor/flopwb.sv
+R5
+8C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor/flopwb.sv
+FC:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor/flopwb.sv
 !i122 15
 L0 1 28
-R5
+R6
 r1
 !s85 0
 31
-R12
-!s107 F:/TFG/ISA_indep_decode_sys/test_processor/flopwb.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+F:/TFG/ISA_indep_decode_sys/test_processor|F:/TFG/ISA_indep_decode_sys/test_processor/flopwb.sv|
+R17
+!s107 C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor/flopwb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor|C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor/flopwb.sv|
 !i113 1
 R7
 R8
@@ -415,26 +415,26 @@ R9
 n@f@l@o@p@w@b
 vHAZARDU
 R1
-R11
+R20
 !i10b 1
 !s100 GoW73kh`Io7FCXL2OXOVe2
 R3
-I2LHK58P8J_Kd[MHIoO<GI2
+IW0@OSPZ^JIggd`6jPXiPO2
 R4
 S1
 R0
-w1629229504
-8F:/TFG/ISA_indep_decode_sys/test_processor/hazarU.sv
-FF:/TFG/ISA_indep_decode_sys/test_processor/hazarU.sv
+R5
+8C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor/hazarU.sv
+FC:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor/hazarU.sv
 !i122 16
 L0 1 21
-R5
+R6
 r1
 !s85 0
 31
-R12
-!s107 F:/TFG/ISA_indep_decode_sys/test_processor/hazarU.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+F:/TFG/ISA_indep_decode_sys/test_processor|F:/TFG/ISA_indep_decode_sys/test_processor/hazarU.sv|
+R22
+!s107 C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor/hazarU.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor|C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor/hazarU.sv|
 !i113 1
 R7
 R8
@@ -442,52 +442,52 @@ R9
 n@h@a@z@a@r@d@u
 vimem
 R1
-R11
+Z24 !s110 1631172117
 !i10b 1
 !s100 n4k<Zf[9=2RTcPG7_kaG@0
 R3
-IgoJZS_MLRXBgz3fC>Wli30
+Ig9;enbJ]z`ja8I5hTd83A2
 R4
 S1
 R0
-w1629220114
-8F:/TFG/ISA_indep_decode_sys/test_processor/imem.sv
-FF:/TFG/ISA_indep_decode_sys/test_processor/imem.sv
-!i122 18
-R13
 R5
+8C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor/imem.sv
+FC:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor/imem.sv
+!i122 18
+R21
+R6
 r1
 !s85 0
 31
-R12
-!s107 F:/TFG/ISA_indep_decode_sys/test_processor/imem.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+F:/TFG/ISA_indep_decode_sys/test_processor|F:/TFG/ISA_indep_decode_sys/test_processor/imem.sv|
+Z25 !s108 1631172117.000000
+!s107 C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor/imem.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor|C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor/imem.sv|
 !i113 1
 R7
 R8
 R9
 vMUX2
 R1
-R2
+R12
 !i10b 1
 !s100 2=YDB7I0NTNkfDX`XfSKW0
 R3
-Ij<2R2D8;oVBod88lEU>U`0
+Ih@DW<PYdP>e7Ie6Bg4HgX3
 R4
 S1
 R0
-w1629069693
-8F:/TFG/ISA_indep_decode_sys/test_processor/mux2.sv
-FF:/TFG/ISA_indep_decode_sys/test_processor/mux2.sv
+R5
+8C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor/mux2.sv
+FC:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor/mux2.sv
 !i122 4
 L0 1 8
-R5
+R6
 r1
 !s85 0
 31
-R6
-!s107 F:/TFG/ISA_indep_decode_sys/test_processor/mux2.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+F:/TFG/ISA_indep_decode_sys/test_processor|F:/TFG/ISA_indep_decode_sys/test_processor/mux2.sv|
+R23
+!s107 C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor/mux2.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor|C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor/mux2.sv|
 !i113 1
 R7
 R8
@@ -495,26 +495,26 @@ R9
 n@m@u@x2
 vREGFILE
 R1
-R2
+R18
 !i10b 1
 !s100 R0V3_mUb663mD^S`i12Nd1
 R3
-Ib>OJ?I>jg:XQR?4LXY<4<3
+I:__CD1nG>^Do^<D:Ib<V:2
 R4
 S1
 R0
-w1629250284
-8F:/TFG/ISA_indep_decode_sys/test_processor/regfile.sv
-FF:/TFG/ISA_indep_decode_sys/test_processor/regfile.sv
+R5
+8C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor/regfile.sv
+FC:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor/regfile.sv
 !i122 7
 L0 1 20
-R5
+R6
 r1
 !s85 0
 31
-R6
-!s107 F:/TFG/ISA_indep_decode_sys/test_processor/regfile.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+F:/TFG/ISA_indep_decode_sys/test_processor|F:/TFG/ISA_indep_decode_sys/test_processor/regfile.sv|
+R19
+!s107 C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor/regfile.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor|C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor/regfile.sv|
 !i113 1
 R7
 R8
@@ -522,52 +522,52 @@ R9
 n@r@e@g@f@i@l@e
 vtestbench
 R1
-R11
+!s110 1631172118
 !i10b 1
-!s100 YdSZK=eLi4Ild2fb7kW[d3
+!s100 n[C=1BHdU?b8QZXJCJQ[S1
 R3
-IOkJ34V9O^Ii8LXmi]=o?N1
+IMgVfH_aEkX4P764_92RY`1
 R4
 S1
 R0
-w1629346061
-8F:/TFG/ISA_indep_decode_sys/test_processor/testbench.sv
-FF:/TFG/ISA_indep_decode_sys/test_processor/testbench.sv
+w1630303606
+8C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor/testbench.sv
+FC:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor/testbench.sv
 !i122 20
 L0 1 42
-R5
+R6
 r1
 !s85 0
 31
-R12
-!s107 F:/TFG/ISA_indep_decode_sys/test_processor/testbench.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+F:/TFG/ISA_indep_decode_sys/test_processor|F:/TFG/ISA_indep_decode_sys/test_processor/testbench.sv|
+!s108 1631172118.000000
+!s107 C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor/testbench.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor|C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor/testbench.sv|
 !i113 1
 R7
 R8
 R9
 vtop
 R1
-R11
+R24
 !i10b 1
 !s100 ?:zEO7R07[Zbz@2eoK88H1
 R3
-I0Ez_Q?8A9<m[zj=Ba?31N2
+I9ZdRkB19019gC>8dbUS3K3
 R4
 S1
 R0
-w1629236365
-8F:/TFG/ISA_indep_decode_sys/test_processor/top.sv
-FF:/TFG/ISA_indep_decode_sys/test_processor/top.sv
+R5
+8C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor/top.sv
+FC:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor/top.sv
 !i122 19
 L0 1 16
-R5
+R6
 r1
 !s85 0
 31
-R12
-!s107 F:/TFG/ISA_indep_decode_sys/test_processor/top.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+F:/TFG/ISA_indep_decode_sys/test_processor|F:/TFG/ISA_indep_decode_sys/test_processor/top.sv|
+R25
+!s107 C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor/top.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor|C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/test_processor/top.sv|
 !i113 1
 R7
 R8
