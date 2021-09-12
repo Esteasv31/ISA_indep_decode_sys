@@ -91,9 +91,6 @@ class Decoder:
 
 
 def run_compressor():
-
-    print(sys.argv)
-
     # Get the path of the input assembler file to compress
     assembler_file_path = sys.argv[1]
 
