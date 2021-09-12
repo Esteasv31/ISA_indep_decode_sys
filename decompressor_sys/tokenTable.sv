@@ -1,7 +1,7 @@
 module tokenTable #(parameter WIDTH = 32,
 						  parameter SIZE = 64,
 						  parameter FILE = "memfile.dat")
-						 (input logic [WIDTH-1:0] a, b, data
+						 (input logic [WIDTH-1:0] a, b, data,
 						  input logic clk, en, 
 						 output logic [WIDTH-1:0] rd1, rd2);
 				
