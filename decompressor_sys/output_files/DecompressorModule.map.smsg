@@ -1,0 +1,1 @@
+Info (10281): Verilog HDL Declaration information at decompressor.sv(2): object "PCADD" differs only in case from object "pcAdd" in the same scope File: C:/Users/estea/Desktop/TFG/ISA_indep_decode_sys/decompressor_sys/decompressor.sv Line: 2
