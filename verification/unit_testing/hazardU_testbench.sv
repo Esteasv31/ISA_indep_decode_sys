@@ -8,7 +8,7 @@ logic [1:0] ForwardAE, ForwardBE;
 logic [7:0] values[4:0], a;
 integer f, i;
 
-HAZARDU #(WIDTH) hazardu (RegWriteW, RegWriteM, MemtoRegE, Match_1E_M, Match_1E_W, Match_2E_M, Match_2E_W, ForwardAE, ForwardBE, Match_12D_E, LDRstall);
+HAZARDU hazardu (RegWriteW, RegWriteM, MemtoRegE, Match_1E_M, Match_1E_W, Match_2E_M, Match_2E_W, ForwardAE, ForwardBE, Match_12D_E, LDRstall);
 
 always #5 clk=~clk;
 

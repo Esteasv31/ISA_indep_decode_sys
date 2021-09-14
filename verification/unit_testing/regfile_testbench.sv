@@ -1,6 +1,6 @@
 module regfileTestBench #(parameter WIDTH = 32,
-							  parameter outputFile = "regFile_output.txt",
-							  parameter inputFile = "regFile_input.txt")
+							  parameter outputFile = "outputs/regFile_output.txt",
+							  parameter inputFile = "inputs/regFile_input.txt")
 						    ();
 
 logic clk, reset, we3;
