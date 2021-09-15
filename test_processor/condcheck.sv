@@ -5,7 +5,7 @@ module CONDCHECK (input logic [3:0] Cond,
 logic neg, zero, carry, overflow;
 
 assign {neg, zero, carry, overflow} = Flags;
-assign ge = (neg == overflow);
+assign ge = (neg & overflow);
 
 always_comb
 	case(Cond)
