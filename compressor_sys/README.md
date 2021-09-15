@@ -13,3 +13,6 @@ To run the code, go to 'compressor_sys' by terminal, then specify the appropiate
 > cd compressor_sys
 >
 > python3 .\decoder.py '.\Benchmarks\Compiled benchmarks\ARM\DSP benchmark\fir_filter.s' True True
+
+
+pip3 install requests
