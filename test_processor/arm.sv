@@ -37,7 +37,7 @@ logic [WIDTH-1:0] RD1, RD2, extImmD;
 
 MUX2 #(4) RAD1_ (instrD[19:16], 4'd15, regSrcD[0], RAD1);
 MUX2 #(4) RAD2_ (instrD[3:0], instrD[15:12], regSrcD[1], RAD2);
-REGFILE #(WIDTH) registerFile_ (clk, regWriteW, RAD1, RAD2, WA3W, resultW, pcPlus, RD1, RD2);
+REGFILE #(WIDTH) registerFile_ (~clk, regWriteW, RAD1, RAD2, WA3W, resultW, pcPlus, RD1, RD2);
 EXTEND #(WIDTH) extend_ (instrD[23:0], immSrcD, extImmD);
 DECODER controlUnit_ (instrD[27:26], instrD[25:20], instrD[15:12], 
 							 flagWriteD, pcSrcD, regWriteD, memWriteD, memToRegD, aluSrcD, immSrcD, regSrcD, 
