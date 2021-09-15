@@ -1,14 +1,14 @@
-module floprTestBench #(parameter WIDTH = 32,
-								parameter outputFile = "flopr_output.txt",
-								parameter inputFile = "flopr_input.txt")
-							  ();
+module flopenrTestBench #(parameter WIDTH = 32,
+								  parameter outputFile = "flopenr_output.txt",
+								  parameter inputFile = "flopenr_input.txt")
+							    ();
 					
 logic clk, reset, en;
 logic [WIDTH-1:0] d, q;
-logic [WIDTH-1:0] values[9:0];
+logic [71:0] values[9:0];
 integer f, i;
 
-FLOPR #(WIDTH) flopr (clk, reset, en, d, q);
+FLOPENR #(WIDTH) flopmem (clk, reset, en, d, q);
 
 always #5 clk=~clk;
 
@@ -25,10 +25,10 @@ initial begin
 
 	f = $fopen(outputFile,"w");
 	@(negedge reset); //Wait for reset to be released
+   @(posedge clk);   //Wait for fisrt clock out of reset
 	for (i = 0; i<5; i=i+1) begin
 		d = values[i];
 		en = values[i+5];
-		@(posedge clk);
 		@(posedge clk);
 		$display("en = %b ; d = %d ; q = %d", en, d, q);
 		$fwrite(f,"%b\n", q);

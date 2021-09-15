@@ -1,7 +1,7 @@
 module dmemTestBench #(parameter WIDTH = 32,
 							  parameter SIZE = 64,
-							  parameter outputFile = "dmem_output.txt",
-							  parameter inputFile = "dmem_input.txt")
+							  parameter outputFile = "outputs/dmem_output.txt",
+							  parameter inputFile = "inputs/dmem_input.txt")
 						    ();
 
 reg   clk,reset, we;
@@ -33,7 +33,7 @@ initial begin
 		wd = values[i+10];
 		@(posedge clk);
 		$display("A %d ; we = %b ; WD = %d ; RD %d", a, we, wd, rd);
-		$fwrite(f,"%h\n",   rd);
+		$fwrite(f,"%b\n",   rd);
 	end
 	$fclose(f);
 	

@@ -1,6 +1,6 @@
 module condlogicTestBench #(parameter WIDTH = 32,
-									 parameter outputFile = "condLogic_output.txt",
-									 parameter inputFile = "condLogic_input.txt")
+									 parameter outputFile = "outputs/condLogic_output.txt",
+									 parameter inputFile = "inputs/condLogic_input.txt")
 								   ();
 
 logic clk,reset;
@@ -44,7 +44,7 @@ initial begin
 		MemW = temp[0];
 		
 		@(posedge clk);
-		$display("res = %b %b %b %b %b %b %b ", Cond, ALUFlags, prevFlags, FlagW, PCS, RegW, MemW);
+		$display("data = %b %b %b %b %b %b %b ; res = %b %b %b %b %b", Cond, ALUFlags, prevFlags, FlagW, PCS, RegW, MemW, PCSrc, RegWrite, MemWrite, CondEx, FlagsX);
 		$fwrite(f,"%b\n", {PCSrc, RegWrite, MemWrite, CondEx, FlagsX});
 	end
 	$fclose(f);

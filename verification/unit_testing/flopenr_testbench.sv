@@ -25,10 +25,10 @@ initial begin
 
 	f = $fopen(outputFile,"w");
 	@(negedge reset); //Wait for reset to be released
-   @(posedge clk);   //Wait for fisrt clock out of reset
 	for (i = 0; i<5; i=i+1) begin
 		d = values[i];
 		en = values[i+5];
+		@(posedge clk);
 		@(posedge clk);
 		$display("en = %b ; d = %d ; q = %d", en, d, q);
 		$fwrite(f,"%b\n", q);

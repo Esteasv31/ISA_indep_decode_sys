@@ -1,6 +1,6 @@
 module decoderTestBench #(parameter WIDTH = 32,
-								  parameter outputFile = "decoder_output.txt",
-								  parameter inputFile = "decoder_input.txt")
+								  parameter outputFile = "outputs/decoder_output.txt",
+								  parameter inputFile = "inputs/imem_data.txt")
 								 ();
 
 logic clk, reset, pcs, regW, memW, memToReg, aluSrc, branch;
@@ -12,7 +12,7 @@ logic [1:0] op, flagW, immSrc, regSrc, aluControl;
 logic [5:0] funct;
 logic [3:0] rd;
 					
-DECODER decoder (op, funct, rd, flagW, pcs, regW, memW, memToReg, aluSrc, immSrc, regSrc, aluControl, branch);
+DECODER decoder (op, funct, rd, flagW, pcs, regW, memW, memToReg, aluSrc, immSrc, regSrc, aluControl, branch);					
 
 always #5 clk=~clk;
 

@@ -27,7 +27,6 @@ initial begin
 
 	f = $fopen(outputFile,"w");
 	@(negedge reset); //Wait for reset to be released
-   @(posedge clk);   //Wait for fisrt clock out of reset
 	for (i = 0; i<5; i=i+1) begin
 		a = values[i];
 		aluResult = a[71:40];
@@ -37,6 +36,7 @@ initial begin
 		regW = a[2];
 		memW = a[1];
 		memtoreg  = a[0];
+		@(posedge clk);
 		@(posedge clk);
 		$fwrite(f,"%b\n", {ALUResultM, WriteDataM, WA3M,  PCSrcM, RegWriteM, MemWriteM, MemtoRegM});
 	end
