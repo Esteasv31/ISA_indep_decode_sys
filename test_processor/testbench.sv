@@ -36,7 +36,7 @@ always @(negedge clk)
 				$stop;
 			end
 		end
-		$display(PC);
+		$display("PC = %h, Instr = %h, ", PC, Instr);
 	end
 
 endmodule

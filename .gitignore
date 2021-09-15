@@ -135,10 +135,10 @@ test_processor/db/*
 test_processor/incremental_db/*
 
 #decompressor_sys
-test_processor/db/ARM_v8.quiproj.16296.rdr.flock
-test_processor/output_files/*
-test_processor/db/*
-test_processor/incremental_db/*
+decompressor_sys/db/ARM_v8.quiproj.16296.rdr.flock
+decompressor_sys/output_files/*
+decompressor_sys/db/*
+decompressor_sys/incremental_db/*
 
 #verification
 verification/*/db/ARM_v8.quiproj.16296.rdr.flock
