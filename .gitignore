@@ -143,5 +143,6 @@ decompressor_sys/incremental_db/*
 #verification
 verification/*/db/ARM_v8.quiproj.16296.rdr.flock
 verification/*/output_files/*
+verification/output_files/*
 verification/*/db/*
 verification/*/incremental_db/*

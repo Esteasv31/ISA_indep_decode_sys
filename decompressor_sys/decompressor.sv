@@ -5,7 +5,7 @@ module DecompressorReg #(parameter WIDTH = 32,
 								 parameter InitFile = "tokenTable.dat",
 								 parameter SIZE = 102)
 								(input logic clk, reset, wme,
-								output logic [WIDTH-1:0] PCcpu, NextInstr, WriteData,
+								 input logic [WIDTH-1:0] PCcpu, NextInstr, WriteData,
 								output logic [WIDTH-1:0] PCcompress, DecompressInstr);
 							
 // Wires							
