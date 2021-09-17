@@ -1,17 +1,13 @@
 from file_management import FileManagement
-import sys
 import pprint
 import time
-import os
 
 
 # Set this flag in True to increase the logging verbosity
 debug_algorithm = False
-code_summary = False
 
 
 class Decoder:
-
 
     def two_lines_fit_count(self, input_list, pattern):
         if debug_algorithm:
@@ -90,17 +86,16 @@ class Decoder:
         return original_list, conversion_table
 
 
-def run_compressor():
-    # Get the path of the input assembler file to compress
-    assembler_file_path = sys.argv[1]
+def run_compressor(file_path, debug, code_summary_flag):
+    global debug_algorithm
 
-    if(len(sys.argv) > 2):
-        global debug_algorithm, code_summary
-        debug_algorithm = sys.argv[2].lower() == 'true'
-        code_summary = sys.argv[3].lower() == 'true'
+    # Get the path of the input assembler file to compress
+    assembler_file_path = file_path.replace('\\', '/')
+    debug_algorithm = debug
+    code_summary = code_summary_flag
 
     # input filename
-    file_name = sys.argv[1].split('\\')[-1]
+    file_name = file_path.split('/')[-1]
     
     # Get and prepare the input file
     file_manager = FileManagement()
@@ -161,6 +156,3 @@ def execution_time_statistics():
 
     print("Elapsed time %s ms" % (average/iterations))
 
-
-# Execute only the decompressor
-run_compressor()
