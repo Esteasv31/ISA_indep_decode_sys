@@ -1,3 +1,5 @@
+import os
+
 
 class FileManagement:
     def file_print(self, file):
@@ -12,7 +14,7 @@ class FileManagement:
         new_list = []
         for line in list:
             new_list.append(
-                line.strip().replace(" ", "").replace("\t", " "))
+                line.strip().replace("\t", " "))
         
         return new_list
 
@@ -40,6 +42,7 @@ class FileManagement:
         return char_count
 
     def createNewFile(self, filePath, data, isDictionary=False):
+        os.makedirs(os.path.dirname(filePath), exist_ok=True)
         file = open(filePath, "w")
         if(isDictionary):
             data = self.parseDictionaryToList(data)
