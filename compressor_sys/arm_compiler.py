@@ -80,3 +80,5 @@ def compile(source, compiler, lang, file_path, debug=False):
   file = open(output_file, "w")
   file.writelines(response.text)
   file.close()
+
+  return output_file
