@@ -121,8 +121,11 @@ def run_compressor(file_path, debug, code_summary_flag):
         print("**********************************************************\n")
         pprint.pprint(pattern)
 
-    file_manager.createNewFile("./CompressedFiles/" + file_name, output_list)
-    file_manager.createNewFile("./CompressedFiles/tokensTable_" + file_name, pattern, True)
+    compressed_file = "./CompressedFiles/" + file_name
+    token_table_file = "./CompressedFiles/tokensTable_" + file_name
+
+    file_manager.createNewFile(compressed_file, output_list)
+    file_manager.createNewFile(token_table_file, pattern, True)
 
     # Get the compression rates
     original_size = len(assembler_list_original)
@@ -142,6 +145,8 @@ def run_compressor(file_path, debug, code_summary_flag):
     print("Compression rate ", compression_rate)
     print("Space saving {} %".format(space_saving))
     print("**********************************************************\n\n")
+
+    return compressed_file, token_table_file
 
 
 # Function used to get execution time statistics
