@@ -2,7 +2,248 @@
 	"partitions" : [
 		{
 			"name" : "Top",
-			"pins" : []
+			"pins" : [
+				{
+					"name" : "DecompressInstr[0]",
+					"strict" : false
+				},
+				{
+					"name" : "DecompressInstr[1]",
+					"strict" : false
+				},
+				{
+					"name" : "DecompressInstr[2]",
+					"strict" : false
+				},
+				{
+					"name" : "DecompressInstr[3]",
+					"strict" : false
+				},
+				{
+					"name" : "DecompressInstr[4]",
+					"strict" : false
+				},
+				{
+					"name" : "DecompressInstr[5]",
+					"strict" : false
+				},
+				{
+					"name" : "DecompressInstr[6]",
+					"strict" : false
+				},
+				{
+					"name" : "DecompressInstr[12]",
+					"strict" : false
+				},
+				{
+					"name" : "DecompressInstr[13]",
+					"strict" : false
+				},
+				{
+					"name" : "DecompressInstr[14]",
+					"strict" : false
+				},
+				{
+					"name" : "DecompressInstr[15]",
+					"strict" : false
+				},
+				{
+					"name" : "DecompressInstr[16]",
+					"strict" : false
+				},
+				{
+					"name" : "DecompressInstr[17]",
+					"strict" : false
+				},
+				{
+					"name" : "DecompressInstr[18]",
+					"strict" : false
+				},
+				{
+					"name" : "DecompressInstr[19]",
+					"strict" : false
+				},
+				{
+					"name" : "DecompressInstr[20]",
+					"strict" : false
+				},
+				{
+					"name" : "DecompressInstr[22]",
+					"strict" : false
+				},
+				{
+					"name" : "DecompressInstr[23]",
+					"strict" : false
+				},
+				{
+					"name" : "DecompressInstr[24]",
+					"strict" : false
+				},
+				{
+					"name" : "DecompressInstr[25]",
+					"strict" : false
+				},
+				{
+					"name" : "DecompressInstr[26]",
+					"strict" : false
+				},
+				{
+					"name" : "DecompressInstr[27]",
+					"strict" : false
+				},
+				{
+					"name" : "DecompressInstr[28]",
+					"strict" : false
+				},
+				{
+					"name" : "DecompressInstr[29]",
+					"strict" : false
+				},
+				{
+					"name" : "DecompressInstr[30]",
+					"strict" : false
+				},
+				{
+					"name" : "DecompressInstr[31]",
+					"strict" : false
+				},
+				{
+					"name" : "PCcpu[15]",
+					"strict" : false
+				},
+				{
+					"name" : "PCcpu[19]",
+					"strict" : false
+				},
+				{
+					"name" : "PCcpu[20]",
+					"strict" : false
+				},
+				{
+					"name" : "PCcpu[21]",
+					"strict" : false
+				},
+				{
+					"name" : "PCcpu[18]",
+					"strict" : false
+				},
+				{
+					"name" : "PCcpu[17]",
+					"strict" : false
+				},
+				{
+					"name" : "PCcpu[16]",
+					"strict" : false
+				},
+				{
+					"name" : "PCcpu[1]",
+					"strict" : false
+				},
+				{
+					"name" : "PCcpu[0]",
+					"strict" : false
+				},
+				{
+					"name" : "PCcpu[2]",
+					"strict" : false
+				},
+				{
+					"name" : "PCcpu[3]",
+					"strict" : false
+				},
+				{
+					"name" : "PCcpu[4]",
+					"strict" : false
+				},
+				{
+					"name" : "PCcpu[5]",
+					"strict" : false
+				},
+				{
+					"name" : "PCcpu[6]",
+					"strict" : false
+				},
+				{
+					"name" : "PCcpu[7]",
+					"strict" : false
+				},
+				{
+					"name" : "PCcpu[8]",
+					"strict" : false
+				},
+				{
+					"name" : "PCcpu[9]",
+					"strict" : false
+				},
+				{
+					"name" : "PCcpu[10]",
+					"strict" : false
+				},
+				{
+					"name" : "PCcpu[13]",
+					"strict" : false
+				},
+				{
+					"name" : "PCcpu[14]",
+					"strict" : false
+				},
+				{
+					"name" : "PCcpu[12]",
+					"strict" : false
+				},
+				{
+					"name" : "PCcpu[11]",
+					"strict" : false
+				},
+				{
+					"name" : "PCcpu[22]",
+					"strict" : false
+				},
+				{
+					"name" : "PCcpu[26]",
+					"strict" : false
+				},
+				{
+					"name" : "PCcpu[27]",
+					"strict" : false
+				},
+				{
+					"name" : "PCcpu[28]",
+					"strict" : false
+				},
+				{
+					"name" : "PCcpu[25]",
+					"strict" : false
+				},
+				{
+					"name" : "PCcpu[24]",
+					"strict" : false
+				},
+				{
+					"name" : "PCcpu[23]",
+					"strict" : false
+				},
+				{
+					"name" : "PCcpu[29]",
+					"strict" : false
+				},
+				{
+					"name" : "PCcpu[30]",
+					"strict" : false
+				},
+				{
+					"name" : "PCcpu[31]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				}
+			]
 		}
 	]
 }
