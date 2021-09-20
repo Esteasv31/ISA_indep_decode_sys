@@ -54,11 +54,12 @@ decoderTestBench #(WIDTH, "outputs/decoder_output.txt", "inputs/imem_data.txt") 
 //TokenTable testbench
 
 //AND testbench
-andTestBench #(WIDTH, "outputs/and_output.txt", "inputs/and_input.txt") decoderTest ();
+andTestBench #(WIDTH, "outputs/and_output.txt", "inputs/and_input.txt") andTest ();
 
 //Decompressor Control Unit testbench
 
 //Comparator testbench
+comparatorTestBench #(WIDTH, "outputs/comparator_output.txt", "inputs/comparator_input.txt") comparatorTest ();
 
 //GratherLess testbench
 
