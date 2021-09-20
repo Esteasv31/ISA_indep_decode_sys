@@ -65,6 +65,7 @@ comparatorTestBench #(WIDTH, "outputs/comparator_output.txt", "inputs/comparator
 gratherLessTestBench #(WIDTH, "outputs/gratherLess_output.txt", "inputs/gratherLess_input.txt") gratherLessTest ();
 
 //Buffers testbench
+bufferTestBench #(WIDTH, "outputs/buffer_output.txt", "inputs/buffer_input.txt") buffer ();
 
 //Latches testbench
 
