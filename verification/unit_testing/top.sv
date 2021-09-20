@@ -51,4 +51,25 @@ hazardUTestBench #(WIDTH, "outputs/hazardU_output.txt", "inputs/hazardU_input.tx
 //decoder testbench
 decoderTestBench #(WIDTH, "outputs/decoder_output.txt", "inputs/imem_data.txt") decoderTest ();
 
+//TokenTable testbench
+tokenTableTestBench #(WIDTH, SIZE, "inputs/imem_data.txt", "outputs/tableToken_output.txt", "inputs/tableToken_input.txt") tableTokenTest ();
+
+//AND testbench
+andTestBench #(WIDTH, "outputs/and_output.txt", "inputs/and_input.txt") andTest ();
+
+//Decompressor Control Unit testbench
+controlUnitTestBench #(3, "outputs/controlUnit_output.txt", "inputs/controlUnit_input.txt") controlUnitTest ();
+
+//Comparator testbench
+comparatorTestBench #(WIDTH, "outputs/comparator_output.txt", "inputs/comparator_input.txt") comparatorTest ();
+
+//GratherLess testbench
+gratherLessTestBench #(WIDTH, "outputs/gratherLess_output.txt", "inputs/gratherLess_input.txt") gratherLessTest ();
+
+//Buffers testbench
+bufferTestBench #(WIDTH, "outputs/buffer_output.txt", "inputs/buffer_input.txt") buffer ();
+
+//Latches testbench
+latchesTestBench #(WIDTH, "outputs/latches_output.txt", "inputs/latches_input.txt") latches ();
+
 endmodule

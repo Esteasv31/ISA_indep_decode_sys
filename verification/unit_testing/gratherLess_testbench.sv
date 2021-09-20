@@ -1,0 +1,40 @@
+module gratherLessTestBench #(parameter WIDTH = 32,
+								      parameter outputFile = "outputs/gratherLess_output.txt",
+								      parameter inputFile = "inputs/gratherLess_input.txt")
+							        ();
+
+logic   clk, reset, c;
+logic [WIDTH-1:0] a, b;
+logic [WIDTH-1:0] values[9:0];
+integer f, i;
+
+GratherLess #(WIDTH) gratherLess (a, b, c);
+
+always #5 clk=~clk;
+
+//Clock and reset release
+initial begin
+	$readmemb(inputFile, values);
+	clk=0; reset=1; //Clock low at time zero
+	@(posedge clk);
+	@(posedge clk);
+	reset=0;
+end
+
+initial begin
+
+	f = $fopen(outputFile,"w");
+	@(negedge reset); //Wait for reset to be released
+   @(posedge clk);   //Wait for fisrt clock out of reset
+	for (i = 0; i<5; i=i+1) begin
+		a = values[i];
+		b = values[i+5];
+		@(posedge clk);
+		$display("gratherLess %d + %d = %d", a, b, c);
+		$fwrite(f,"%b\n",   c);
+	end
+	$fclose(f);
+	
+end
+  
+endmodule
