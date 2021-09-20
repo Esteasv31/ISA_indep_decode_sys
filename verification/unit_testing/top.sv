@@ -52,7 +52,7 @@ hazardUTestBench #(WIDTH, "outputs/hazardU_output.txt", "inputs/hazardU_input.tx
 decoderTestBench #(WIDTH, "outputs/decoder_output.txt", "inputs/imem_data.txt") decoderTest ();
 
 //TokenTable testbench
-tokenTableTestBench #(WIDTH, "outputs/tableToken_output.txt", "inputs/tableToken_input.txt") tableTokenTest ();
+tokenTableTestBench #(WIDTH, SIZE, "inputs/imem_data.txt", "outputs/tableToken_output.txt", "inputs/tableToken_input.txt") tableTokenTest ();
 
 //AND testbench
 andTestBench #(WIDTH, "outputs/and_output.txt", "inputs/and_input.txt") andTest ();
