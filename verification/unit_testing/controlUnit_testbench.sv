@@ -5,7 +5,7 @@ module controlUnitTestBench #(parameter WIDTH = 32,
 
 logic clk, reset, PCcpu, branch, encode, branchMux, PCcompress, inputBuff, tableMux, outMux, PCintern, outBuff1, outBuff2;
 logic [2:0] a;
-logic [WIDTH-1:0] values[4:0];
+logic [WIDTH-1:0] values[7:0];
 integer f, i;
 
 ControlUnit conUnit (clk, reset, PCcpu, branch, encode, branchMux, PCcompress, inputBuff, tableMux, outMux, PCintern, outBuff1, outBuff2);
@@ -26,7 +26,7 @@ initial begin
 	f = $fopen(outputFile,"w");
 	@(negedge reset); //Wait for reset to be released
    @(posedge clk);   //Wait for fisrt clock out of reset
-	for (i = 0; i<5; i=i+1) begin
+	for (i = 0; i<8; i=i+1) begin
 		a = values[i];
 		PCcpu = a[2];
 		branch = a[1];

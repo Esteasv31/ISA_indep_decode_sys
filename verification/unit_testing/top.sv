@@ -58,7 +58,7 @@ tokenTableTestBench #(WIDTH, SIZE, "inputs/imem_data.txt", "outputs/tableToken_o
 andTestBench #(WIDTH, "outputs/and_output.txt", "inputs/and_input.txt") andTest ();
 
 //Decompressor Control Unit testbench
-controlUnitTestBench #(WIDTH, "outputs/controlUnit_output.txt", "inputs/controlUnit_input.txt") controlUnitTest ();
+controlUnitTestBench #(3, "outputs/controlUnit_output.txt", "inputs/controlUnit_input.txt") controlUnitTest ();
 
 //Comparator testbench
 comparatorTestBench #(WIDTH, "outputs/comparator_output.txt", "inputs/comparator_input.txt") comparatorTest ();
