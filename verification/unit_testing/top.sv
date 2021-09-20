@@ -68,5 +68,6 @@ gratherLessTestBench #(WIDTH, "outputs/gratherLess_output.txt", "inputs/gratherL
 bufferTestBench #(WIDTH, "outputs/buffer_output.txt", "inputs/buffer_input.txt") buffer ();
 
 //Latches testbench
+latchesTestBench #(WIDTH, "outputs/latches_output.txt", "inputs/latches_input.txt") latches ();
 
 endmodule
