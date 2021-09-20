@@ -51,4 +51,19 @@ hazardUTestBench #(WIDTH, "outputs/hazardU_output.txt", "inputs/hazardU_input.tx
 //decoder testbench
 decoderTestBench #(WIDTH, "outputs/decoder_output.txt", "inputs/imem_data.txt") decoderTest ();
 
+//TokenTable testbench
+
+//AND testbench
+andTestBench #(WIDTH, "outputs/and_output.txt", "inputs/and_input.txt") decoderTest ();
+
+//Decompressor Control Unit testbench
+
+//Comparator testbench
+
+//GratherLess testbench
+
+//Buffers testbench
+
+//Latches testbench
+
 endmodule
