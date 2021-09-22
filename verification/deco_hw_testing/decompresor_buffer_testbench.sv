@@ -1,4 +1,4 @@
-module decompresor_buffer_testbench();
+module decompresor_buffer_testbench ();
 
 logic clk;
 logic reset;
@@ -9,11 +9,15 @@ integer f, i;
 topBuffer #(32, 32'b100, 4'b1111, 4, "inputs/compress_tokensTable_dot_and_cross_product.dat", "inputs/compress_dot_and_cross_product.dat", 32, 77) decompressor_buff (clk, reset, PCcpu, DecompressInstr);
 
 // generate clock to sequence tests
-always #10 clk = ~clk;
+always #20 clk = ~clk;
 
 // initialize test
 initial begin
-	reset <= 1; # 5; reset <= 0;
+	PCcpu = 32'd0;
+	clk=0; reset=1; //Clock low at time zero
+	@(posedge clk);
+	@(posedge clk);
+	reset=0;
 end
 	
 initial begin
@@ -21,7 +25,6 @@ initial begin
 	f = $fopen("outputs/decompresor_Buffer_Testbench.txt","w");
 	@(negedge reset); //Wait for reset to be released
    @(posedge clk);   //Wait for fisrt clock out of reset
-	PCcpu = 32'd0;
 	for (i = 0; i<115; i=i+1) begin
 		@(posedge clk); 
 		$display("PC_cpu = %h & DecompressInstr = %h ", PCcpu, DecompressInstr);

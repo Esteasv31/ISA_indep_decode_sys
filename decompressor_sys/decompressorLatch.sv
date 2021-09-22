@@ -33,7 +33,7 @@ ControlUnit ControlU (clk, reset, PCcpu1, branch, encode, branchMux, PCcompress1
 // Output Managament
 	// stage 1
 	COMPARATOR #(WIDTH) comparator (PCcpu, internalPC, PCcpu1);
-	FLOPR #(WIDTH) internalPCReg (clk, reset, PCcompress1, PCcpu, internalPC);
+	FLOPR #(WIDTH, 32'hFFFFFFFF) internalPCReg (clk, reset, PCcompress1, PCcpu, internalPC);
 	ADD   #(WIDTH) internalPCAdd (internalPC, PCADD, internalPCPlus);
 	GratherLess #(WIDTH) branchCheck (internalPCPlus, PCcpu, branch);
 	
