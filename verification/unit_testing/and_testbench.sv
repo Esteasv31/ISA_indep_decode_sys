@@ -3,8 +3,8 @@ module andTestBench #(parameter WIDTH = 32,
 							 parameter inputFile = "inputs/and_input.txt")
 							();
 
-logic   clk,reset;
-logic [WIDTH-1:0] a, b, c;
+logic   clk, reset, c;
+logic [WIDTH-1:0] a, b;
 logic [WIDTH-1:0] values[9:0];
 integer f, i;
 
