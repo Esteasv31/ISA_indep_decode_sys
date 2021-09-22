@@ -25,7 +25,7 @@ ControlUnit ControlU (clk, reset, PCcpu1, branch, encode, branchMux, PCcompress1
 	ADD   #(WIDTH) pcAdd (PCcompress, PCADD, pcPlus);
 
 	// stage #2
-	ANDModule   #(WIDTH) pcAnd (instrToDecode[WIDTH-1:WIDTH-encodeLength], OPcode, encode);
+	ANDModule #(encodeLength) pcAnd (instrToDecode[WIDTH-1:WIDTH-encodeLength], OPcode, encode);
 
 // Table Management
 	MUX2  #(WIDTH) tableMux_ (instrToDecode, data1, tableMux, outInstr1);	
