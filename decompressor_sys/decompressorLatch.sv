@@ -46,7 +46,7 @@ ControlUnit ControlU (clk, reset, PCcpu1, branch, encode, branchMux, PCcompress1
 
 // Conversion Table
 	ADD   #(WIDTH) dirAdd (instrToDecode, PCADD, TableDir2);
-	tokenTable #(WIDTH, SIZE, InitFile) conversionTable (instrToDecode, TableDir2, WriteData, clk, wme, data1, data2);
+	tokenTable #(WIDTH, SIZE, InitFile) conversionTable ({4'b0, instrToDecode[WIDTH-encodeLength-1:0]}, {4'b0, TableDir2[WIDTH-encodeLength-1:0]}, WriteData, clk, wme, data1, data2);
 
 // Output Buffer
 	FLOPR #(WIDTH) outputReg2 (clk, reset, outBuff2, data2, outData2);

@@ -24,7 +24,6 @@ initial begin
 
 	f = $fopen("outputs/decompresor_Buffer_Testbench.txt","w");
 	@(negedge reset); //Wait for reset to be released
-   @(posedge clk);   //Wait for fisrt clock out of reset
 	for (i = 0; i<115; i=i+1) begin
 		@(posedge clk); 
 		$display("PC_cpu = %h & DecompressInstr = %h ", PCcpu, DecompressInstr);
