@@ -11,7 +11,7 @@ cModel Technology
 dF:/TFG/ISA_indep_decode_sys/verification/deco_hw_testing
 vADD
 Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z1 !s110 1632273153
+Z1 !s110 1632879073
 !i10b 1
 !s100 =V9?boj4U1A]IAP<CJVE10
 Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -22,13 +22,13 @@ Z4 dF:/TFG/ISA_indep_decode_sys/verification/deco_hw_testing/simulation
 Z5 w1629938562
 8F:/TFG/ISA_indep_decode_sys/test_processor/adder.sv
 FF:/TFG/ISA_indep_decode_sys/test_processor/adder.sv
-!i122 17
+!i122 219
 Z6 L0 1 7
 Z7 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z8 !s108 1632273153.000000
+Z8 !s108 1632879073.000000
 !s107 F:/TFG/ISA_indep_decode_sys/test_processor/adder.sv|
 !s90 -reportprogress|300|-work|work|F:/TFG/ISA_indep_decode_sys/test_processor/adder.sv|
 !i113 1
@@ -37,24 +37,24 @@ Z10 tCvgOpt 0
 n@a@d@d
 vANDModule
 R0
-!s110 1632275366
+Z11 !s110 1632882091
 !i10b 1
-!s100 ^F93ZSDZ5aP0FJAz:b9SR3
+!s100 T0GkV`L?[io4M2DNkX[450
 R2
-I`?K_`P^Fl_ITICdKn1H:M1
+IJO<K3Ok_aY5MkXTz1AdS]0
 R3
 S1
 R4
-w1632275350
+w1632275902
 8F:/TFG/ISA_indep_decode_sys/decompressor_sys/and.sv
 FF:/TFG/ISA_indep_decode_sys/decompressor_sys/and.sv
-!i122 55
+!i122 301
 R6
 R7
 r1
 !s85 0
 31
-!s108 1632275366.000000
+!s108 1632882090.000000
 !s107 F:/TFG/ISA_indep_decode_sys/decompressor_sys/and.sv|
 !s90 -reportprogress|300|-work|work|F:/TFG/ISA_indep_decode_sys/decompressor_sys/and.sv|
 !i113 1
@@ -63,7 +63,7 @@ R10
 n@a@n@d@module
 vBUFFER
 R0
-Z11 !s110 1632275277
+R11
 !i10b 1
 !s100 fgK?PM9DKEQRMDG5WG>>03
 R2
@@ -74,13 +74,13 @@ R4
 Z12 w1632113250
 Z13 8F:/TFG/ISA_indep_decode_sys/decompressor_sys/buffer.sv
 Z14 FF:/TFG/ISA_indep_decode_sys/decompressor_sys/buffer.sv
-!i122 43
+!i122 302
 L0 2 7
 R7
 r1
 !s85 0
 31
-Z15 !s108 1632275277.000000
+Z15 !s108 1632882091.000000
 Z16 !s107 F:/TFG/ISA_indep_decode_sys/decompressor_sys/buffer.sv|
 Z17 !s90 -reportprogress|300|-work|work|F:/TFG/ISA_indep_decode_sys/decompressor_sys/buffer.sv|
 !i113 1
@@ -100,7 +100,7 @@ R4
 R12
 8F:/TFG/ISA_indep_decode_sys/decompressor_sys/comparator.sv
 FF:/TFG/ISA_indep_decode_sys/decompressor_sys/comparator.sv
-!i122 44
+!i122 303
 L0 11 7
 R7
 r1
@@ -115,24 +115,24 @@ R10
 n@c@o@m@p@a@r@a@t@o@r
 vControlUnit
 R0
-R11
+!s110 1632882293
 !i10b 1
-!s100 GZ0in@JSLdDUC_bN1jML^1
+!s100 h1YK<Ecc7j_PANa5mlk4Q1
 R2
-Ib]QJLX?8Tim_KgeC;a7aT3
+I:bPB@WVEoC^D4=IMOlZRj2
 R3
 S1
 R4
-R12
+w1632882279
 8F:/TFG/ISA_indep_decode_sys/decompressor_sys/controlUnit.sv
 FF:/TFG/ISA_indep_decode_sys/decompressor_sys/controlUnit.sv
-!i122 45
+!i122 317
 L0 1 18
 R7
 r1
 !s85 0
 31
-R15
+!s108 1632882293.000000
 !s107 F:/TFG/ISA_indep_decode_sys/decompressor_sys/controlUnit.sv|
 !s90 -reportprogress|300|-work|work|F:/TFG/ISA_indep_decode_sys/decompressor_sys/controlUnit.sv|
 !i113 1
@@ -141,24 +141,24 @@ R10
 n@control@unit
 vdecompresor_buffer_testbench
 R0
-Z18 !s110 1632275268
+Z18 !s110 1632882101
 !i10b 1
-!s100 gG^OC]1YQ]39;OLmoAX<j0
+!s100 h5U:LU8Ao7BdNd>g5^j;z2
 R2
-Ibf`jf?M361U`QlS4@dHTC0
+IJJ9gFf3X4`MDHQ;FAAT5S3
 R3
 S1
 R4
-w1632274946
+w1632878371
 8F:/TFG/ISA_indep_decode_sys/verification/deco_hw_testing/decompresor_buffer_testbench.sv
 FF:/TFG/ISA_indep_decode_sys/verification/deco_hw_testing/decompresor_buffer_testbench.sv
-!i122 39
-Z19 L0 1 42
+!i122 314
+Z19 L0 1 55
 R7
 r1
 !s85 0
 31
-Z20 !s108 1632275268.000000
+!s108 1632882100.000000
 !s107 F:/TFG/ISA_indep_decode_sys/verification/deco_hw_testing/decompresor_buffer_testbench.sv|
 !s90 -reportprogress|300|-work|work|F:/TFG/ISA_indep_decode_sys/verification/deco_hw_testing/decompresor_buffer_testbench.sv|
 !i113 1
@@ -168,22 +168,22 @@ vdecompresor_latch_testbench
 R0
 R18
 !i10b 1
-!s100 T>@?K^:b@[k=KOnBknO1m3
+!s100 @;JA3]SYcYU?o<cJU2K463
 R2
-IE5P5j^cCI7F74EY_dK]Ge3
+I0G?85Oo?UDGo]<H5^KRiO0
 R3
 S1
 R4
-w1632274966
+w1632789704
 8F:/TFG/ISA_indep_decode_sys/verification/deco_hw_testing/decompresor_latch_testbench.sv
 FF:/TFG/ISA_indep_decode_sys/verification/deco_hw_testing/decompresor_latch_testbench.sv
-!i122 40
-R19
+!i122 315
+L0 1 44
 R7
 r1
 !s85 0
 31
-R20
+Z20 !s108 1632882101.000000
 !s107 F:/TFG/ISA_indep_decode_sys/verification/deco_hw_testing/decompresor_latch_testbench.sv|
 !s90 -reportprogress|300|-work|work|F:/TFG/ISA_indep_decode_sys/verification/deco_hw_testing/decompresor_latch_testbench.sv|
 !i113 1
@@ -193,17 +193,17 @@ vdecompresor_reg_testbench
 R0
 R18
 !i10b 1
-!s100 DzKBK8OW1mBZNQjaXMGGY3
+!s100 ^Kc_CWA6@4^MGJF577^`U3
 R2
-IbH2E]:bhP5NWN530?`f250
+IH=j<VDiG3QW4QL78dQG9B1
 R3
 S1
 R4
-w1632274984
+w1632789715
 8F:/TFG/ISA_indep_decode_sys/verification/deco_hw_testing/decompresor_reg_testbench.sv
 FF:/TFG/ISA_indep_decode_sys/verification/deco_hw_testing/decompresor_reg_testbench.sv
-!i122 41
-R19
+!i122 316
+L0 1 45
 R7
 r1
 !s85 0
@@ -216,24 +216,24 @@ R9
 R10
 vDecompressorBuff
 R0
-Z21 !s110 1632275278
+Z21 !s110 1632882093
 !i10b 1
-!s100 O8kIKoL[3XH6ecDS[Cd:e1
+!s100 08WN7AnSzQL;?S>eITXWl3
 R2
-I1azDCcz2EocJQ57Tcgjj@1
+I?`7Ii9dMiR_QcQD1bkz350
 R3
 S1
 R4
-w1632275180
+w1632882028
 8F:/TFG/ISA_indep_decode_sys/decompressor_sys/decompressorBuff.sv
 FF:/TFG/ISA_indep_decode_sys/decompressor_sys/decompressorBuff.sv
-!i122 47
-L0 1 55
+!i122 306
+R19
 R7
 r1
 !s85 0
 31
-Z22 !s108 1632275278.000000
+Z22 !s108 1632882092.000000
 !s107 F:/TFG/ISA_indep_decode_sys/decompressor_sys/decompressorBuff.sv|
 !s90 -reportprogress|300|-work|work|F:/TFG/ISA_indep_decode_sys/decompressor_sys/decompressorBuff.sv|
 !i113 1
@@ -244,22 +244,22 @@ vDecompressorLatch
 R0
 R21
 !i10b 1
-!s100 CTnE7imFcM[aQhF;JQ7AR3
+!s100 <Z8RHB=VVjIcThV6DiCDk2
 R2
-IY3J@Q0EGG]?SE:2M01a@o2
+IZ_hl`^dLnN<R7?oZ[dhTY3
 R3
 S1
 R4
-w1632275220
+w1632879252
 8F:/TFG/ISA_indep_decode_sys/decompressor_sys/decompressorLatch.sv
 FF:/TFG/ISA_indep_decode_sys/decompressor_sys/decompressorLatch.sv
-!i122 48
+!i122 307
 L0 1 56
 R7
 r1
 !s85 0
 31
-R22
+Z23 !s108 1632882093.000000
 !s107 F:/TFG/ISA_indep_decode_sys/decompressor_sys/decompressorLatch.sv|
 !s90 -reportprogress|300|-work|work|F:/TFG/ISA_indep_decode_sys/decompressor_sys/decompressorLatch.sv|
 !i113 1
@@ -268,24 +268,24 @@ R10
 n@decompressor@latch
 vDecompressorReg
 R0
-R21
+!s110 1632882092
 !i10b 1
-!s100 ZjoaPCH[F_R7fC2[b8k@Q3
+!s100 izUe^7Rz;2em2B]NI[J`<3
 R2
-I3fA:m9;_E]g9_gJV6Zel@1
+Ii;NLO<XkVc`QcbWU1DO]42
 R3
 S1
 R4
-w1632275232
+w1632882037
 8F:/TFG/ISA_indep_decode_sys/decompressor_sys/decompressor.sv
 FF:/TFG/ISA_indep_decode_sys/decompressor_sys/decompressor.sv
-!i122 46
+!i122 305
 L0 1 54
 R7
 r1
 !s85 0
 31
-R15
+R22
 !s107 F:/TFG/ISA_indep_decode_sys/decompressor_sys/decompressor.sv|
 !s90 -reportprogress|300|-work|work|F:/TFG/ISA_indep_decode_sys/decompressor_sys/decompressor.sv|
 !i113 1
@@ -294,7 +294,7 @@ R10
 n@decompressor@reg
 vDlatch
 R0
-R21
+Z24 !s110 1632882094
 !i10b 1
 !s100 Mh58G@ZY?W1MCP2bX55BL1
 R2
@@ -302,18 +302,18 @@ IkAIo?4R6dRAZaWlBf_41l1
 R3
 S1
 R4
-Z23 w1632113251
-Z24 8F:/TFG/ISA_indep_decode_sys/decompressor_sys/latches.sv
-Z25 FF:/TFG/ISA_indep_decode_sys/decompressor_sys/latches.sv
-!i122 50
+Z25 w1632113251
+Z26 8F:/TFG/ISA_indep_decode_sys/decompressor_sys/latches.sv
+Z27 FF:/TFG/ISA_indep_decode_sys/decompressor_sys/latches.sv
+!i122 309
 L0 10 12
 R7
 r1
 !s85 0
 31
-R22
-Z26 !s107 F:/TFG/ISA_indep_decode_sys/decompressor_sys/latches.sv|
-Z27 !s90 -reportprogress|300|-work|work|F:/TFG/ISA_indep_decode_sys/decompressor_sys/latches.sv|
+R23
+Z28 !s107 F:/TFG/ISA_indep_decode_sys/decompressor_sys/latches.sv|
+Z29 !s90 -reportprogress|300|-work|work|F:/TFG/ISA_indep_decode_sys/decompressor_sys/latches.sv|
 !i113 1
 R9
 R10
@@ -331,7 +331,7 @@ R4
 R12
 R13
 R14
-!i122 43
+!i122 302
 L0 11 48
 R7
 r1
@@ -346,7 +346,7 @@ R10
 n@f@i@f@obuffer
 vFLOPCLR
 R0
-R1
+!s110 1632878031
 !i10b 1
 !s100 8SC?^5BPIz6:U3Hkl4RR;1
 R2
@@ -357,13 +357,13 @@ R4
 R5
 8F:/TFG/ISA_indep_decode_sys/test_processor/flopclr.sv
 FF:/TFG/ISA_indep_decode_sys/test_processor/flopclr.sv
-!i122 18
+!i122 173
 L0 1 72
 R7
 r1
 !s85 0
 31
-R8
+Z30 !s108 1632878031.000000
 !s107 F:/TFG/ISA_indep_decode_sys/test_processor/flopclr.sv|
 !s90 -reportprogress|300|-work|work|F:/TFG/ISA_indep_decode_sys/test_processor/flopclr.sv|
 !i113 1
@@ -372,7 +372,7 @@ R10
 n@f@l@o@p@c@l@r
 vFLOPENCLR
 R0
-R1
+Z31 !s110 1632878032
 !i10b 1
 !s100 b[6g:3PgVYT`b77RkNoRn3
 R2
@@ -383,13 +383,13 @@ R4
 R5
 8F:/TFG/ISA_indep_decode_sys/test_processor/flopenclr.sv
 FF:/TFG/ISA_indep_decode_sys/test_processor/flopenclr.sv
-!i122 19
+!i122 174
 L0 1 12
 R7
 r1
 !s85 0
 31
-R8
+R30
 !s107 F:/TFG/ISA_indep_decode_sys/test_processor/flopenclr.sv|
 !s90 -reportprogress|300|-work|work|F:/TFG/ISA_indep_decode_sys/test_processor/flopenclr.sv|
 !i113 1
@@ -398,7 +398,7 @@ R10
 n@f@l@o@p@e@n@c@l@r
 vFLOPENR
 R0
-R1
+R31
 !i10b 1
 !s100 VDjNaeegFKC=TW`LZCaTn3
 R2
@@ -409,13 +409,13 @@ R4
 R5
 8F:/TFG/ISA_indep_decode_sys/test_processor/flopenr.sv
 FF:/TFG/ISA_indep_decode_sys/test_processor/flopenr.sv
-!i122 20
+!i122 175
 L0 1 10
 R7
 r1
 !s85 0
 31
-R8
+!s108 1632878032.000000
 !s107 F:/TFG/ISA_indep_decode_sys/test_processor/flopenr.sv|
 !s90 -reportprogress|300|-work|work|F:/TFG/ISA_indep_decode_sys/test_processor/flopenr.sv|
 !i113 1
@@ -424,24 +424,24 @@ R10
 n@f@l@o@p@e@n@r
 vFLOPR
 R0
-R1
+!s110 1632882075
 !i10b 1
-!s100 XOMz[UVQ]am1]>aK>EW0S0
+!s100 KjQEcl?IaeOm;^i7PjD5J3
 R2
-IVUIDBzY5<8`NcK`Ma75cI2
+IDS[eXMAlZUgIU6PO9>D3E2
 R3
 S1
 R4
-R5
+w1632881979
 8F:/TFG/ISA_indep_decode_sys/test_processor/flopr.sv
 FF:/TFG/ISA_indep_decode_sys/test_processor/flopr.sv
-!i122 21
+!i122 300
 L0 1 11
 R7
 r1
 !s85 0
 31
-R8
+!s108 1632882075.000000
 !s107 F:/TFG/ISA_indep_decode_sys/test_processor/flopr.sv|
 !s90 -reportprogress|300|-work|work|F:/TFG/ISA_indep_decode_sys/test_processor/flopr.sv|
 !i113 1
@@ -458,16 +458,16 @@ IA[dA=oA418nGWF]VSFmDf2
 R3
 S1
 R4
-R23
+R25
 8F:/TFG/ISA_indep_decode_sys/decompressor_sys/gratherLess.sv
 FF:/TFG/ISA_indep_decode_sys/decompressor_sys/gratherLess.sv
-!i122 49
+!i122 308
 R6
 R7
 r1
 !s85 0
 31
-R22
+R23
 !s107 F:/TFG/ISA_indep_decode_sys/decompressor_sys/gratherLess.sv|
 !s90 -reportprogress|300|-work|work|F:/TFG/ISA_indep_decode_sys/decompressor_sys/gratherLess.sv|
 !i113 1
@@ -487,7 +487,7 @@ R4
 R5
 8F:/TFG/ISA_indep_decode_sys/test_processor/imem.sv
 FF:/TFG/ISA_indep_decode_sys/test_processor/imem.sv
-!i122 22
+!i122 221
 L0 1 14
 R7
 r1
@@ -512,8 +512,8 @@ R4
 R5
 8F:/TFG/ISA_indep_decode_sys/test_processor/mux2.sv
 FF:/TFG/ISA_indep_decode_sys/test_processor/mux2.sv
-!i122 23
-Z28 L0 1 8
+!i122 222
+Z32 L0 1 8
 R7
 r1
 !s85 0
@@ -527,7 +527,7 @@ R10
 n@m@u@x2
 vSRlatch
 R0
-R21
+R24
 !i10b 1
 !s100 [[6Jj^oo[[28PghC=6:C83
 R2
@@ -535,25 +535,25 @@ I2Y7MN4<COHocgM7NGIPg]2
 R3
 S1
 R4
-R23
-R24
 R25
-!i122 50
-R28
+R26
+R27
+!i122 309
+R32
 R7
 r1
 !s85 0
 31
-R22
-R26
-R27
+R23
+R28
+R29
 !i113 1
 R9
 R10
 n@s@rlatch
 vtokenTable
 R0
-R21
+R24
 !i10b 1
 !s100 _RBSYH@4F77iXfP5ELnbn0
 R2
@@ -561,16 +561,16 @@ IPLbLb<cXL1=PbUPW<?nI:3
 R3
 S1
 R4
-R23
+R25
 8F:/TFG/ISA_indep_decode_sys/decompressor_sys/tokenTable.sv
 FF:/TFG/ISA_indep_decode_sys/decompressor_sys/tokenTable.sv
-!i122 51
+!i122 310
 L0 1 19
 R7
 r1
 !s85 0
 31
-R22
+Z33 !s108 1632882094.000000
 !s107 F:/TFG/ISA_indep_decode_sys/decompressor_sys/tokenTable.sv|
 !s90 -reportprogress|300|-work|work|F:/TFG/ISA_indep_decode_sys/decompressor_sys/tokenTable.sv|
 !i113 1
@@ -579,7 +579,7 @@ R10
 ntoken@table
 vtopBuffer
 R0
-R21
+R24
 !i10b 1
 !s100 B5e]P=^ULFb3<lh8?H4z41
 R2
@@ -587,16 +587,16 @@ Ik[mZ6DfS8d`4dN6_LXmDP2
 R3
 S1
 R4
-R23
+R25
 8F:/TFG/ISA_indep_decode_sys/decompressor_sys/topBuffer.sv
 FF:/TFG/ISA_indep_decode_sys/decompressor_sys/topBuffer.sv
-!i122 52
-Z29 L0 1 23
+!i122 311
+Z34 L0 1 23
 R7
 r1
 !s85 0
 31
-R22
+R33
 !s107 F:/TFG/ISA_indep_decode_sys/decompressor_sys/topBuffer.sv|
 !s90 -reportprogress|300|-work|work|F:/TFG/ISA_indep_decode_sys/decompressor_sys/topBuffer.sv|
 !i113 1
@@ -605,7 +605,7 @@ R10
 ntop@buffer
 vtopLatch
 R0
-R21
+R24
 !i10b 1
 !s100 fXBW]LRZT^c8PnXfAY=cX3
 R2
@@ -613,16 +613,16 @@ IAbz4H:Dnjb1nBbEDVbBza2
 R3
 S1
 R4
-R23
+R25
 8F:/TFG/ISA_indep_decode_sys/decompressor_sys/topLatch.sv
 FF:/TFG/ISA_indep_decode_sys/decompressor_sys/topLatch.sv
-!i122 53
-R29
+!i122 312
+R34
 R7
 r1
 !s85 0
 31
-R22
+R33
 !s107 F:/TFG/ISA_indep_decode_sys/decompressor_sys/topLatch.sv|
 !s90 -reportprogress|300|-work|work|F:/TFG/ISA_indep_decode_sys/decompressor_sys/topLatch.sv|
 !i113 1
@@ -631,7 +631,7 @@ R10
 ntop@latch
 vtopReg
 R0
-R21
+R24
 !i10b 1
 !s100 Lb[7Q@ZijfkFjR]i=0^O=1
 R2
@@ -639,16 +639,16 @@ Im<n[<SiRf55K=9MPXLbYG2
 R3
 S1
 R4
-R23
+R25
 8F:/TFG/ISA_indep_decode_sys/decompressor_sys/topReg.sv
 FF:/TFG/ISA_indep_decode_sys/decompressor_sys/topReg.sv
-!i122 54
-R29
+!i122 313
+R34
 R7
 r1
 !s85 0
 31
-R22
+R33
 !s107 F:/TFG/ISA_indep_decode_sys/decompressor_sys/topReg.sv|
 !s90 -reportprogress|300|-work|work|F:/TFG/ISA_indep_decode_sys/decompressor_sys/topReg.sv|
 !i113 1

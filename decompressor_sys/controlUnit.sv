@@ -4,7 +4,7 @@ module ControlUnit (input logic clk, reset, PCcpu, branch, encode,
 logic instrCached;
 
 // syncronize clk to write the instrCache and reset to 0 after second instr release to CPU							  
-FLOPR #(1) instructionReg (~clk, reset, ~encode, encode, instrCached); 
+FLOPR #(1) instructionReg (clk, reset, ~encode, encode, instrCached); 
 
 assign branchMux = branch & ~PCcpu;
 assign PCcompress = (instrCached & ~PCcpu & ~branch) | PCcpu;

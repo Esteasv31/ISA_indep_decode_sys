@@ -23,7 +23,7 @@ end
 
 initial begin
 
-	f = $fopen("outputs/decompresor_Reg_Testbench.txt","w");
+	f = $fopen("outputs/decompresorRegTestbench_output.txt","w");
 	@(negedge reset); //Wait for reset to be released
 	for (i = 0; i<115; i=i+1) begin
 		@(posedge clk); 

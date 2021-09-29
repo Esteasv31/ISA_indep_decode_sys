@@ -1,5 +1,5 @@
 Analysis & Synthesis report for DecompressorModule
-Sun Sep 19 10:35:12 2021
+Tue Sep 28 18:59:26 2021
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -16,35 +16,37 @@ Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
   8. Registers Removed During Synthesis
   9. Removed Registers Triggering Further Register Optimizations
  10. General Register Statistics
- 11. Multiplexer Restructuring Statistics (Restructuring Performed)
- 12. Parameter Settings for User Entity Instance: Top-level Entity: |topBuffer
- 13. Parameter Settings for User Entity Instance: DecompressorBuff:decompressorModule
- 14. Parameter Settings for User Entity Instance: DecompressorBuff:decompressorModule|ControlUnit:ControlU|FLOPR:instructionReg
- 15. Parameter Settings for User Entity Instance: DecompressorBuff:decompressorModule|MUX2:branchTaken
- 16. Parameter Settings for User Entity Instance: DecompressorBuff:decompressorModule|FLOPR:pcReg
- 17. Parameter Settings for User Entity Instance: DecompressorBuff:decompressorModule|ADD:pcAdd
- 18. Parameter Settings for User Entity Instance: DecompressorBuff:decompressorModule|ANDModule:pcAnd
- 19. Parameter Settings for User Entity Instance: DecompressorBuff:decompressorModule|MUX2:tableMux_
- 20. Parameter Settings for User Entity Instance: DecompressorBuff:decompressorModule|COMPARATOR:comparator
- 21. Parameter Settings for User Entity Instance: DecompressorBuff:decompressorModule|FLOPR:internalPCReg
- 22. Parameter Settings for User Entity Instance: DecompressorBuff:decompressorModule|ADD:internalPCAdd
- 23. Parameter Settings for User Entity Instance: DecompressorBuff:decompressorModule|GratherLess:branchCheck
- 24. Parameter Settings for User Entity Instance: DecompressorBuff:decompressorModule|MUX2:outMux_
- 25. Parameter Settings for User Entity Instance: DecompressorBuff:decompressorModule|BUFFER:inputBuff_
- 26. Parameter Settings for User Entity Instance: DecompressorBuff:decompressorModule|ADD:dirAdd
- 27. Parameter Settings for User Entity Instance: DecompressorBuff:decompressorModule|tokenTable:conversionTable
- 28. Parameter Settings for User Entity Instance: DecompressorBuff:decompressorModule|FLOPR:outputReg2
- 29. Parameter Settings for User Entity Instance: DecompressorBuff:decompressorModule|BUFFER:outputBuff
- 30. Parameter Settings for User Entity Instance: imem:imem
- 31. Port Connectivity Checks: "DecompressorBuff:decompressorModule|ADD:dirAdd"
- 32. Port Connectivity Checks: "DecompressorBuff:decompressorModule|ADD:internalPCAdd"
- 33. Port Connectivity Checks: "DecompressorBuff:decompressorModule|ANDModule:pcAnd"
- 34. Port Connectivity Checks: "DecompressorBuff:decompressorModule|ADD:pcAdd"
- 35. Port Connectivity Checks: "DecompressorBuff:decompressorModule|ControlUnit:ControlU"
- 36. Post-Synthesis Netlist Statistics for Top Partition
- 37. Elapsed Time Per Partition
- 38. Analysis & Synthesis Messages
- 39. Analysis & Synthesis Suppressed Messages
+ 11. Inverted Register Statistics
+ 12. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 13. Parameter Settings for User Entity Instance: Top-level Entity: |topBuffer
+ 14. Parameter Settings for User Entity Instance: DecompressorBuff:decompressorModule
+ 15. Parameter Settings for User Entity Instance: DecompressorBuff:decompressorModule|ControlUnit:ControlU|FLOPR:instructionReg
+ 16. Parameter Settings for User Entity Instance: DecompressorBuff:decompressorModule|MUX2:branchTaken
+ 17. Parameter Settings for User Entity Instance: DecompressorBuff:decompressorModule|FLOPR:pcReg
+ 18. Parameter Settings for User Entity Instance: DecompressorBuff:decompressorModule|ADD:pcAdd
+ 19. Parameter Settings for User Entity Instance: DecompressorBuff:decompressorModule|ANDModule:pcAnd
+ 20. Parameter Settings for User Entity Instance: DecompressorBuff:decompressorModule|MUX2:tableMux_
+ 21. Parameter Settings for User Entity Instance: DecompressorBuff:decompressorModule|COMPARATOR:comparator
+ 22. Parameter Settings for User Entity Instance: DecompressorBuff:decompressorModule|FLOPR:internalPCReg
+ 23. Parameter Settings for User Entity Instance: DecompressorBuff:decompressorModule|ADD:internalPCAdd
+ 24. Parameter Settings for User Entity Instance: DecompressorBuff:decompressorModule|GratherLess:branchCheck
+ 25. Parameter Settings for User Entity Instance: DecompressorBuff:decompressorModule|MUX2:outMux_
+ 26. Parameter Settings for User Entity Instance: DecompressorBuff:decompressorModule|BUFFER:inputBuff_
+ 27. Parameter Settings for User Entity Instance: DecompressorBuff:decompressorModule|ADD:dirAdd
+ 28. Parameter Settings for User Entity Instance: DecompressorBuff:decompressorModule|tokenTable:conversionTable
+ 29. Parameter Settings for User Entity Instance: DecompressorBuff:decompressorModule|FLOPR:outputReg2
+ 30. Parameter Settings for User Entity Instance: DecompressorBuff:decompressorModule|BUFFER:outputBuff
+ 31. Parameter Settings for User Entity Instance: imem:imem
+ 32. Port Connectivity Checks: "DecompressorBuff:decompressorModule|tokenTable:conversionTable"
+ 33. Port Connectivity Checks: "DecompressorBuff:decompressorModule|ADD:dirAdd"
+ 34. Port Connectivity Checks: "DecompressorBuff:decompressorModule|ADD:internalPCAdd"
+ 35. Port Connectivity Checks: "DecompressorBuff:decompressorModule|ANDModule:pcAnd"
+ 36. Port Connectivity Checks: "DecompressorBuff:decompressorModule|ADD:pcAdd"
+ 37. Port Connectivity Checks: "DecompressorBuff:decompressorModule|ControlUnit:ControlU"
+ 38. Post-Synthesis Netlist Statistics for Top Partition
+ 39. Elapsed Time Per Partition
+ 40. Analysis & Synthesis Messages
+ 41. Analysis & Synthesis Suppressed Messages
 
 
 
@@ -71,7 +73,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Sun Sep 19 10:35:12 2021       ;
+; Analysis & Synthesis Status     ; Successful - Tue Sep 28 18:59:26 2021       ;
 ; Quartus Prime Version           ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                   ; DecompressorModule                          ;
 ; Top-level Entity Name           ; topBuffer                                   ;
@@ -220,14 +222,14 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------+-----------+
 ; Resource                                    ; Usage     ;
 +---------------------------------------------+-----------+
-; Estimate of Logic utilization (ALMs needed) ; 178       ;
+; Estimate of Logic utilization (ALMs needed) ; 145       ;
 ;                                             ;           ;
-; Combinational ALUT usage for logic          ; 240       ;
-;     -- 7 input functions                    ; 4         ;
-;     -- 6 input functions                    ; 108       ;
-;     -- 5 input functions                    ; 50        ;
+; Combinational ALUT usage for logic          ; 222       ;
+;     -- 7 input functions                    ; 0         ;
+;     -- 6 input functions                    ; 67        ;
+;     -- 5 input functions                    ; 41        ;
 ;     -- 4 input functions                    ; 34        ;
-;     -- <=3 input functions                  ; 44        ;
+;     -- <=3 input functions                  ; 80        ;
 ;                                             ;           ;
 ; Dedicated logic registers                   ; 66        ;
 ;                                             ;           ;
@@ -237,8 +239,8 @@ https://fpgasoftware.intel.com/eula.
 ;                                             ;           ;
 ; Maximum fan-out node                        ; clk~input ;
 ; Maximum fan-out                             ; 66        ;
-; Total fan-out                               ; 1514      ;
-; Average fan-out                             ; 3.46      ;
+; Total fan-out                               ; 1242      ;
+; Average fan-out                             ; 2.96      ;
 +---------------------------------------------+-----------+
 
 
@@ -247,22 +249,22 @@ https://fpgasoftware.intel.com/eula.
 +------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+------------------------------------------------------------------------------------------+------------------+--------------+
 ; Compilation Hierarchy Node               ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                      ; Entity Name      ; Library Name ;
 +------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+------------------------------------------------------------------------------------------+------------------+--------------+
-; |topBuffer                               ; 240 (0)             ; 66 (0)                    ; 0                 ; 0          ; 66   ; 0            ; |topBuffer                                                                               ; topBuffer        ; work         ;
-;    |DecompressorBuff:decompressorModule| ; 218 (0)             ; 66 (0)                    ; 0                 ; 0          ; 0    ; 0            ; |topBuffer|DecompressorBuff:decompressorModule                                           ; DecompressorBuff ; work         ;
+; |topBuffer                               ; 222 (0)             ; 66 (0)                    ; 0                 ; 0          ; 66   ; 0            ; |topBuffer                                                                               ; topBuffer        ; work         ;
+;    |DecompressorBuff:decompressorModule| ; 202 (0)             ; 66 (0)                    ; 0                 ; 0          ; 0    ; 0            ; |topBuffer|DecompressorBuff:decompressorModule                                           ; DecompressorBuff ; work         ;
 ;       |ADD:dirAdd|                       ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |topBuffer|DecompressorBuff:decompressorModule|ADD:dirAdd                                ; ADD              ; work         ;
 ;       |ADD:internalPCAdd|                ; 30 (30)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |topBuffer|DecompressorBuff:decompressorModule|ADD:internalPCAdd                         ; ADD              ; work         ;
 ;       |ADD:pcAdd|                        ; 7 (7)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |topBuffer|DecompressorBuff:decompressorModule|ADD:pcAdd                                 ; ADD              ; work         ;
 ;       |COMPARATOR:comparator|            ; 14 (14)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |topBuffer|DecompressorBuff:decompressorModule|COMPARATOR:comparator                     ; COMPARATOR       ; work         ;
-;       |ControlUnit:ControlU|             ; 4 (3)               ; 1 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |topBuffer|DecompressorBuff:decompressorModule|ControlUnit:ControlU                      ; ControlUnit      ; work         ;
-;          |FLOPR:instructionReg|          ; 1 (1)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |topBuffer|DecompressorBuff:decompressorModule|ControlUnit:ControlU|FLOPR:instructionReg ; FLOPR            ; work         ;
-;       |FLOPR:internalPCReg|              ; 0 (0)               ; 32 (32)                   ; 0                 ; 0          ; 0    ; 0            ; |topBuffer|DecompressorBuff:decompressorModule|FLOPR:internalPCReg                       ; FLOPR            ; work         ;
+;       |ControlUnit:ControlU|             ; 3 (3)               ; 1 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |topBuffer|DecompressorBuff:decompressorModule|ControlUnit:ControlU                      ; ControlUnit      ; work         ;
+;          |FLOPR:instructionReg|          ; 0 (0)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |topBuffer|DecompressorBuff:decompressorModule|ControlUnit:ControlU|FLOPR:instructionReg ; FLOPR            ; work         ;
+;       |FLOPR:internalPCReg|              ; 30 (30)             ; 32 (32)                   ; 0                 ; 0          ; 0    ; 0            ; |topBuffer|DecompressorBuff:decompressorModule|FLOPR:internalPCReg                       ; FLOPR            ; work         ;
 ;       |FLOPR:outputReg2|                 ; 0 (0)               ; 26 (26)                   ; 0                 ; 0          ; 0    ; 0            ; |topBuffer|DecompressorBuff:decompressorModule|FLOPR:outputReg2                          ; FLOPR            ; work         ;
 ;       |FLOPR:pcReg|                      ; 0 (0)               ; 7 (7)                     ; 0                 ; 0          ; 0    ; 0            ; |topBuffer|DecompressorBuff:decompressorModule|FLOPR:pcReg                               ; FLOPR            ; work         ;
-;       |GratherLess:branchCheck|          ; 49 (49)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |topBuffer|DecompressorBuff:decompressorModule|GratherLess:branchCheck                   ; GratherLess      ; work         ;
+;       |GratherLess:branchCheck|          ; 46 (46)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |topBuffer|DecompressorBuff:decompressorModule|GratherLess:branchCheck                   ; GratherLess      ; work         ;
 ;       |MUX2:branchTaken|                 ; 7 (7)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |topBuffer|DecompressorBuff:decompressorModule|MUX2:branchTaken                          ; MUX2             ; work         ;
-;       |MUX2:outMux_|                     ; 45 (45)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |topBuffer|DecompressorBuff:decompressorModule|MUX2:outMux_                              ; MUX2             ; work         ;
-;       |tokenTable:conversionTable|       ; 61 (61)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |topBuffer|DecompressorBuff:decompressorModule|tokenTable:conversionTable                ; tokenTable       ; work         ;
-;    |imem:imem|                           ; 22 (22)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |topBuffer|imem:imem                                                                     ; imem             ; work         ;
+;       |MUX2:outMux_|                     ; 37 (37)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |topBuffer|DecompressorBuff:decompressorModule|MUX2:outMux_                              ; MUX2             ; work         ;
+;       |tokenTable:conversionTable|       ; 27 (27)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |topBuffer|DecompressorBuff:decompressorModule|tokenTable:conversionTable                ; tokenTable       ; work         ;
+;    |imem:imem|                           ; 20 (20)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |topBuffer|imem:imem                                                                     ; imem             ; work         ;
 +------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+------------------------------------------------------------------------------------------+------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -3599,13 +3601,52 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 
 
++-------------------------------------------------------------------------+
+; Inverted Register Statistics                                            ;
++---------------------------------------------------------------+---------+
+; Inverted Register                                             ; Fan out ;
++---------------------------------------------------------------+---------+
+; DecompressorBuff:decompressorModule|FLOPR:internalPCReg|q[15] ; 2       ;
+; DecompressorBuff:decompressorModule|FLOPR:internalPCReg|q[16] ; 2       ;
+; DecompressorBuff:decompressorModule|FLOPR:internalPCReg|q[17] ; 2       ;
+; DecompressorBuff:decompressorModule|FLOPR:internalPCReg|q[12] ; 2       ;
+; DecompressorBuff:decompressorModule|FLOPR:internalPCReg|q[13] ; 2       ;
+; DecompressorBuff:decompressorModule|FLOPR:internalPCReg|q[14] ; 2       ;
+; DecompressorBuff:decompressorModule|FLOPR:internalPCReg|q[9]  ; 2       ;
+; DecompressorBuff:decompressorModule|FLOPR:internalPCReg|q[10] ; 2       ;
+; DecompressorBuff:decompressorModule|FLOPR:internalPCReg|q[11] ; 2       ;
+; DecompressorBuff:decompressorModule|FLOPR:internalPCReg|q[5]  ; 2       ;
+; DecompressorBuff:decompressorModule|FLOPR:internalPCReg|q[6]  ; 2       ;
+; DecompressorBuff:decompressorModule|FLOPR:internalPCReg|q[7]  ; 2       ;
+; DecompressorBuff:decompressorModule|FLOPR:internalPCReg|q[8]  ; 2       ;
+; DecompressorBuff:decompressorModule|FLOPR:internalPCReg|q[2]  ; 2       ;
+; DecompressorBuff:decompressorModule|FLOPR:internalPCReg|q[3]  ; 2       ;
+; DecompressorBuff:decompressorModule|FLOPR:internalPCReg|q[4]  ; 2       ;
+; DecompressorBuff:decompressorModule|FLOPR:internalPCReg|q[30] ; 2       ;
+; DecompressorBuff:decompressorModule|FLOPR:internalPCReg|q[31] ; 2       ;
+; DecompressorBuff:decompressorModule|FLOPR:internalPCReg|q[27] ; 2       ;
+; DecompressorBuff:decompressorModule|FLOPR:internalPCReg|q[28] ; 2       ;
+; DecompressorBuff:decompressorModule|FLOPR:internalPCReg|q[29] ; 2       ;
+; DecompressorBuff:decompressorModule|FLOPR:internalPCReg|q[24] ; 2       ;
+; DecompressorBuff:decompressorModule|FLOPR:internalPCReg|q[25] ; 2       ;
+; DecompressorBuff:decompressorModule|FLOPR:internalPCReg|q[26] ; 2       ;
+; DecompressorBuff:decompressorModule|FLOPR:internalPCReg|q[18] ; 2       ;
+; DecompressorBuff:decompressorModule|FLOPR:internalPCReg|q[19] ; 2       ;
+; DecompressorBuff:decompressorModule|FLOPR:internalPCReg|q[20] ; 2       ;
+; DecompressorBuff:decompressorModule|FLOPR:internalPCReg|q[21] ; 2       ;
+; DecompressorBuff:decompressorModule|FLOPR:internalPCReg|q[22] ; 2       ;
+; DecompressorBuff:decompressorModule|FLOPR:internalPCReg|q[23] ; 2       ;
+; Total number of inverted registers = 30                       ;         ;
++---------------------------------------------------------------+---------+
+
+
 +---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 ; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                                  ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------------------------+
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                        ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------------------------+
-; 3:1                ; 7 bits    ; 14 LEs        ; 14 LEs               ; 0 LEs                  ; No         ; |topBuffer|DecompressorBuff:decompressorModule|MUX2:outMux_|c[9]  ;
-; 3:1                ; 25 bits   ; 50 LEs        ; 50 LEs               ; 0 LEs                  ; No         ; |topBuffer|DecompressorBuff:decompressorModule|MUX2:outMux_|c[24] ;
+; 3:1                ; 6 bits    ; 12 LEs        ; 12 LEs               ; 0 LEs                  ; No         ; |topBuffer|DecompressorBuff:decompressorModule|MUX2:outMux_|c[9]  ;
+; 3:1                ; 26 bits   ; 52 LEs        ; 52 LEs               ; 0 LEs                  ; No         ; |topBuffer|DecompressorBuff:decompressorModule|MUX2:outMux_|c[31] ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------------------------+
 
 
@@ -3647,6 +3688,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; Parameter Name ; Value ; Type                                                                                              ;
 +----------------+-------+---------------------------------------------------------------------------------------------------+
 ; WIDTH          ; 1     ; Signed Integer                                                                                    ;
+; INITVALUE      ; 0     ; Signed Integer                                                                                    ;
 +----------------+-------+---------------------------------------------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -3667,6 +3709,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; Parameter Name ; Value ; Type                                                                ;
 +----------------+-------+---------------------------------------------------------------------+
 ; WIDTH          ; 32    ; Signed Integer                                                      ;
+; INITVALUE      ; 0     ; Signed Integer                                                      ;
 +----------------+-------+---------------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -3686,7 +3729,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-------------------------------------------------------------------------+
 ; Parameter Name ; Value ; Type                                                                    ;
 +----------------+-------+-------------------------------------------------------------------------+
-; WIDTH          ; 32    ; Signed Integer                                                          ;
+; WIDTH          ; 4     ; Signed Integer                                                          ;
 +----------------+-------+-------------------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -3713,11 +3756,12 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 +------------------------------------------------------------------------------------------------------+
 ; Parameter Settings for User Entity Instance: DecompressorBuff:decompressorModule|FLOPR:internalPCReg ;
-+----------------+-------+-----------------------------------------------------------------------------+
-; Parameter Name ; Value ; Type                                                                        ;
-+----------------+-------+-----------------------------------------------------------------------------+
-; WIDTH          ; 32    ; Signed Integer                                                              ;
-+----------------+-------+-----------------------------------------------------------------------------+
++----------------+----------------------------------+--------------------------------------------------+
+; Parameter Name ; Value                            ; Type                                             ;
++----------------+----------------------------------+--------------------------------------------------+
+; WIDTH          ; 32                               ; Signed Integer                                   ;
+; INITVALUE      ; 11111111111111111111111111111100 ; Unsigned Binary                                  ;
++----------------+----------------------------------+--------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
@@ -3789,6 +3833,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; Parameter Name ; Value ; Type                                                                     ;
 +----------------+-------+--------------------------------------------------------------------------+
 ; WIDTH          ; 32    ; Signed Integer                                                           ;
+; INITVALUE      ; 0     ; Signed Integer                                                           ;
 +----------------+-------+--------------------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -3815,15 +3860,26 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+----------------------------------------------------------------------------+
-; Port Connectivity Checks: "DecompressorBuff:decompressorModule|ADD:dirAdd" ;
-+----------+-------+----------+----------------------------------------------+
-; Port     ; Type  ; Severity ; Details                                      ;
-+----------+-------+----------+----------------------------------------------+
-; b[31..3] ; Input ; Info     ; Stuck at GND                                 ;
-; b[1..0]  ; Input ; Info     ; Stuck at GND                                 ;
-; b[2]     ; Input ; Info     ; Stuck at VCC                                 ;
-+----------+-------+----------+----------------------------------------------+
++--------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "DecompressorBuff:decompressorModule|tokenTable:conversionTable" ;
++-----------+-------+----------+-------------------------------------------------------------+
+; Port      ; Type  ; Severity ; Details                                                     ;
++-----------+-------+----------+-------------------------------------------------------------+
+; a[31..28] ; Input ; Info     ; Stuck at GND                                                ;
+; b[31..28] ; Input ; Info     ; Stuck at GND                                                ;
++-----------+-------+----------+-------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "DecompressorBuff:decompressorModule|ADD:dirAdd"                                          ;
++-----------+--------+----------+-------------------------------------------------------------------------------------+
+; Port      ; Type   ; Severity ; Details                                                                             ;
++-----------+--------+----------+-------------------------------------------------------------------------------------+
+; b[31..3]  ; Input  ; Info     ; Stuck at GND                                                                        ;
+; b[1..0]   ; Input  ; Info     ; Stuck at GND                                                                        ;
+; b[2]      ; Input  ; Info     ; Stuck at VCC                                                                        ;
+; c[31..28] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++-----------+--------+----------+-------------------------------------------------------------------------------------+
 
 
 +-----------------------------------------------------------------------------------+
@@ -3837,16 +3893,13 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------+-------+----------+-----------------------------------------------------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "DecompressorBuff:decompressorModule|ANDModule:pcAnd"                                                                                        ;
-+------+--------+----------+---------------------------------------------------------------------------------------------------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                                                                                                                     ;
-+------+--------+----------+---------------------------------------------------------------------------------------------------------------------------------------------+
-; a    ; Input  ; Warning  ; Input port expression (4 bits) is smaller than the input port (32 bits) it drives.  Extra input bit(s) "a[31..4]" will be connected to GND. ;
-; b    ; Input  ; Warning  ; Input port expression (4 bits) is smaller than the input port (32 bits) it drives.  Extra input bit(s) "b[31..4]" will be connected to GND. ;
-; b    ; Input  ; Info     ; Stuck at VCC                                                                                                                                ;
-; c    ; Output ; Warning  ; Output or bidir port (32 bits) is wider than the port expression (1 bits) it drives; bit(s) "c[31..1]" have no fanouts                      ;
-+------+--------+----------+---------------------------------------------------------------------------------------------------------------------------------------------+
++---------------------------------------------------------------------------------+
+; Port Connectivity Checks: "DecompressorBuff:decompressorModule|ANDModule:pcAnd" ;
++------+-------+----------+-------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                               ;
++------+-------+----------+-------------------------------------------------------+
+; b    ; Input ; Info     ; Stuck at VCC                                          ;
++------+-------+----------+-------------------------------------------------------+
 
 
 +---------------------------------------------------------------------------+
@@ -3866,7 +3919,6 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; Port      ; Type   ; Severity ; Details                                                                             ;
 +-----------+--------+----------+-------------------------------------------------------------------------------------+
 ; inputBuff ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-; PCintern  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
 ; outBuff1  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
 +-----------+--------+----------+-------------------------------------------------------------------------------------+
 
@@ -3879,23 +3931,22 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; arriav_ff             ; 66                          ;
 ;     CLR               ; 1                           ;
 ;     ENA CLR           ; 65                          ;
-; arriav_lcell_comb     ; 241                         ;
+; arriav_lcell_comb     ; 223                         ;
 ;     arith             ; 37                          ;
 ;         1 data inputs ; 30                          ;
 ;         4 data inputs ; 7                           ;
-;     extend            ; 4                           ;
-;         7 data inputs ; 4                           ;
-;     normal            ; 200                         ;
+;     normal            ; 186                         ;
 ;         0 data inputs ; 1                           ;
-;         2 data inputs ; 10                          ;
-;         3 data inputs ; 4                           ;
+;         1 data inputs ; 30                          ;
+;         2 data inputs ; 11                          ;
+;         3 data inputs ; 9                           ;
 ;         4 data inputs ; 27                          ;
-;         5 data inputs ; 50                          ;
-;         6 data inputs ; 108                         ;
+;         5 data inputs ; 41                          ;
+;         6 data inputs ; 67                          ;
 ; boundary_port         ; 66                          ;
 ;                       ;                             ;
-; Max LUT depth         ; 12.60                       ;
-; Average LUT depth     ; 10.09                       ;
+; Max LUT depth         ; 10.90                       ;
+; Average LUT depth     ; 8.18                        ;
 +-----------------------+-----------------------------+
 
 
@@ -3914,7 +3965,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Sun Sep 19 10:35:05 2021
+    Info: Processing started: Tue Sep 28 18:59:19 2021
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off DecompressorModule -c DecompressorModule
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 12 of the 12 processors detected
@@ -3958,11 +4009,13 @@ Info (12127): Elaborating entity "topBuffer" for the top level hierarchy
 Info (12128): Elaborating entity "DecompressorBuff" for hierarchy "DecompressorBuff:decompressorModule" File: F:/TFG/ISA_indep_decode_sys/decompressor_sys/topBuffer.sv Line: 18
 Info (12128): Elaborating entity "ControlUnit" for hierarchy "DecompressorBuff:decompressorModule|ControlUnit:ControlU" File: F:/TFG/ISA_indep_decode_sys/decompressor_sys/decompressorBuff.sv Line: 18
 Info (12128): Elaborating entity "FLOPR" for hierarchy "DecompressorBuff:decompressorModule|ControlUnit:ControlU|FLOPR:instructionReg" File: F:/TFG/ISA_indep_decode_sys/decompressor_sys/controlUnit.sv Line: 7
+Warning (10230): Verilog HDL assignment warning at flopr.sv(7): truncated value with size 32 to match size of target (1) File: F:/TFG/ISA_indep_decode_sys/test_processor/flopr.sv Line: 7
 Info (12128): Elaborating entity "MUX2" for hierarchy "DecompressorBuff:decompressorModule|MUX2:branchTaken" File: F:/TFG/ISA_indep_decode_sys/decompressor_sys/decompressorBuff.sv Line: 23
 Info (12128): Elaborating entity "FLOPR" for hierarchy "DecompressorBuff:decompressorModule|FLOPR:pcReg" File: F:/TFG/ISA_indep_decode_sys/decompressor_sys/decompressorBuff.sv Line: 24
 Info (12128): Elaborating entity "ADD" for hierarchy "DecompressorBuff:decompressorModule|ADD:pcAdd" File: F:/TFG/ISA_indep_decode_sys/decompressor_sys/decompressorBuff.sv Line: 25
 Info (12128): Elaborating entity "ANDModule" for hierarchy "DecompressorBuff:decompressorModule|ANDModule:pcAnd" File: F:/TFG/ISA_indep_decode_sys/decompressor_sys/decompressorBuff.sv Line: 28
 Info (12128): Elaborating entity "COMPARATOR" for hierarchy "DecompressorBuff:decompressorModule|COMPARATOR:comparator" File: F:/TFG/ISA_indep_decode_sys/decompressor_sys/decompressorBuff.sv Line: 35
+Info (12128): Elaborating entity "FLOPR" for hierarchy "DecompressorBuff:decompressorModule|FLOPR:internalPCReg" File: F:/TFG/ISA_indep_decode_sys/decompressor_sys/decompressorBuff.sv Line: 36
 Info (12128): Elaborating entity "GratherLess" for hierarchy "DecompressorBuff:decompressorModule|GratherLess:branchCheck" File: F:/TFG/ISA_indep_decode_sys/decompressor_sys/decompressorBuff.sv Line: 38
 Info (12128): Elaborating entity "BUFFER" for hierarchy "DecompressorBuff:decompressorModule|BUFFER:inputBuff_" File: F:/TFG/ISA_indep_decode_sys/decompressor_sys/decompressorBuff.sv Line: 44
 Info (12128): Elaborating entity "tokenTable" for hierarchy "DecompressorBuff:decompressorModule|tokenTable:conversionTable" File: F:/TFG/ISA_indep_decode_sys/decompressor_sys/decompressorBuff.sv Line: 48
@@ -3979,7 +4032,6 @@ Critical Warning (127005): Memory depth (128) in the design file differs from me
 Warning (127007): Memory Initialization File or Hexadecimal (Intel-Format) File "F:/TFG/ISA_indep_decode_sys/decompressor_sys/db/DecompressorModule.ram0_imem_a1f044f2.hdl.mif" contains "don't care" values -- overwriting them with 0s
 Critical Warning (127005): Memory depth (128) in the design file differs from memory depth (102) in the Memory Initialization File "F:/TFG/ISA_indep_decode_sys/decompressor_sys/db/DecompressorModule.ram0_tokenTable_6cdb4a49.hdl.mif" -- setting initial value for remaining addresses to 0
 Warning (127007): Memory Initialization File or Hexadecimal (Intel-Format) File "F:/TFG/ISA_indep_decode_sys/decompressor_sys/db/DecompressorModule.ram0_tokenTable_6cdb4a49.hdl.mif" contains "don't care" values -- overwriting them with 0s
-Warning (12241): 1 hierarchies have connectivity warnings - see the Connectivity Checks report folder
 Warning (13024): Output pins are stuck at VCC or GND
     Warning (13410): Pin "DecompressInstr[7]" is stuck at GND File: F:/TFG/ISA_indep_decode_sys/decompressor_sys/topBuffer.sv Line: 11
     Warning (13410): Pin "DecompressInstr[8]" is stuck at GND File: F:/TFG/ISA_indep_decode_sys/decompressor_sys/topBuffer.sv Line: 11
@@ -3992,15 +4044,15 @@ Info (17049): 1241 registers lost all their fanouts during netlist optimizations
 Info (144001): Generated suppressed messages file F:/TFG/ISA_indep_decode_sys/decompressor_sys/output_files/DecompressorModule.map.smsg
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 343 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 296 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 34 input pins
     Info (21059): Implemented 32 output pins
-    Info (21061): Implemented 277 logic cells
+    Info (21061): Implemented 230 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 19 warnings
-    Info: Peak virtual memory: 4887 megabytes
-    Info: Processing ended: Sun Sep 19 10:35:12 2021
+    Info: Peak virtual memory: 4885 megabytes
+    Info: Processing ended: Tue Sep 28 18:59:26 2021
     Info: Elapsed time: 00:00:07
-    Info: Total CPU time (on all processors): 00:00:13
+    Info: Total CPU time (on all processors): 00:00:12
 
 
 +------------------------------------------+
