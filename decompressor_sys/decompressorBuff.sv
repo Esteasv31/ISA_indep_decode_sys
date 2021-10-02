@@ -21,7 +21,7 @@ ControlUnit ControlU (clk, reset, PCcpu1, branch, encode, branchMux, PCcompress1
 
 	// stage #1
 	MUX2  #(WIDTH) branchTaken (PC, PCcpu, branchMux, PCcompress);
-	FLOPR #(WIDTH) pcReg (clk, reset, ~PCcompress1, pcPlus, PC);
+	FLOPR #(WIDTH) pcReg (clk, reset, PCcompress1, pcPlus, PC);
 	ADD   #(WIDTH) pcAdd (PCcompress, PCADD, pcPlus);
 
 	// stage #2
@@ -33,7 +33,7 @@ ControlUnit ControlU (clk, reset, PCcpu1, branch, encode, branchMux, PCcompress1
 // Output Managament
 	// stage 1
 	COMPARATOR #(WIDTH) comparator (PCcpu, internalPC, PCcpu1);
-	FLOPR #(WIDTH, 32'hFFFFFFFC) internalPCReg (clk, reset, PCcompress1, PCcpu, internalPC);
+	FLOPR #(WIDTH, 32'hFFFFFFFC) internalPCReg (clk, reset, PCintern, PCcpu, internalPC);
 	ADD   #(WIDTH) internalPCAdd (internalPC, PCADD, internalPCPlus);
 	GratherLess #(WIDTH) branchCheck (internalPCPlus, PCcpu, branch);
 	
