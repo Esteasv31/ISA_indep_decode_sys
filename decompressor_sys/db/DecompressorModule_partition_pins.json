@@ -108,6 +108,42 @@
 					"strict" : false
 				},
 				{
+					"name" : "PCcpu[7]",
+					"strict" : false
+				},
+				{
+					"name" : "PCcpu[15]",
+					"strict" : false
+				},
+				{
+					"name" : "PCcpu[21]",
+					"strict" : false
+				},
+				{
+					"name" : "PCcpu[20]",
+					"strict" : false
+				},
+				{
+					"name" : "PCcpu[19]",
+					"strict" : false
+				},
+				{
+					"name" : "PCcpu[18]",
+					"strict" : false
+				},
+				{
+					"name" : "PCcpu[17]",
+					"strict" : false
+				},
+				{
+					"name" : "PCcpu[16]",
+					"strict" : false
+				},
+				{
+					"name" : "PCcpu[11]",
+					"strict" : false
+				},
+				{
 					"name" : "PCcpu[12]",
 					"strict" : false
 				},
@@ -132,10 +168,6 @@
 					"strict" : false
 				},
 				{
-					"name" : "PCcpu[11]",
-					"strict" : false
-				},
-				{
 					"name" : "PCcpu[3]",
 					"strict" : false
 				},
@@ -152,10 +184,6 @@
 					"strict" : false
 				},
 				{
-					"name" : "PCcpu[7]",
-					"strict" : false
-				},
-				{
 					"name" : "PCcpu[1]",
 					"strict" : false
 				},
@@ -165,34 +193,6 @@
 				},
 				{
 					"name" : "PCcpu[2]",
-					"strict" : false
-				},
-				{
-					"name" : "PCcpu[15]",
-					"strict" : false
-				},
-				{
-					"name" : "PCcpu[19]",
-					"strict" : false
-				},
-				{
-					"name" : "PCcpu[20]",
-					"strict" : false
-				},
-				{
-					"name" : "PCcpu[21]",
-					"strict" : false
-				},
-				{
-					"name" : "PCcpu[18]",
-					"strict" : false
-				},
-				{
-					"name" : "PCcpu[17]",
-					"strict" : false
-				},
-				{
-					"name" : "PCcpu[16]",
 					"strict" : false
 				},
 				{
