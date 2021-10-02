@@ -4,15 +4,22 @@ module ControlUnit (input logic clk, reset, PCcpu, branch, encode,
 logic instrCached;
 
 // syncronize clk to write the instrCache and reset to 0 after second instr release to CPU							  
-FLOPR #(1) instructionReg (clk, reset, ~encode, encode, instrCached); 
+FLOPR #(1) instructionReg (clk, reset, 0, (~instrCached & encode), instrCached); 
 
-assign branchMux = branch & ~PCcpu;
-assign PCcompress = (instrCached & ~PCcpu & ~branch) | PCcpu;
-assign inputBuff = PCcompress;
-assign tableMux = encode;
-assign outMux = instrCached & ~PCcpu & ~branch;
-assign PCintern = PCcpu;
-assign outBuff1 = PCcpu;
-assign outBuff2 = (instrCached & PCcpu) | (~PCcpu & ~encode) | (~instrCached & PCcpu & encode);
+assign branchMux = branch & ~PCcpu;//
+
+assign PCcompress = (~instrCached & ~branch & encode) | (~instrCached & PCcpu & ~encode) | (PCcpu & branch & encode) | (instrCached & PCcpu & ~branch) | (instrCached & PCcpu & branch & ~encode);//
+
+assign inputBuff = PCcpu;//
+
+assign tableMux = (~instrCached & ~branch & encode) | (PCcpu & branch & encode) | (instrCached & PCcpu & ~branch & encode);//
+
+assign outMux = instrCached & ((instrCached & ~branch) | PCcpu);//
+
+assign PCintern = PCcpu;//
+
+assign outBuff1 = 0;//
+
+assign outBuff2 = 0;//
 
 endmodule 
