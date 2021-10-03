@@ -1,3 +1,6 @@
+/* 
+ * SR Latch - simple
+ */
 module SRlatch #(parameter WIDTH = 32)
 					 (input logic [WIDTH-1:0] S, R,
 					 output logic [WIDTH-1:0] Q, Qbar);
@@ -7,6 +10,10 @@ assign Qbar = S ^ Q;
 
 endmodule 
 
+/* 
+ * D Latch
+ * similiar to the FLOPR but whitout the clk, reset signals
+ */
 module Dlatch #(parameter WIDTH = 32)
 					 (input logic EN,
 					  input logic [WIDTH-1:0] D,

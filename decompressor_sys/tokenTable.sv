@@ -1,3 +1,7 @@
+/* 
+ * ROM memory
+ * This memory is located inside the decompressor system and will hold the token tables of the program
+ */
 module tokenTable #(parameter WIDTH = 32,
 						  parameter SIZE = 64,
 						  parameter FILE = "memfile.dat")

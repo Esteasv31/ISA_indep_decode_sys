@@ -1,3 +1,7 @@
+/* 
+ * Control Unit of the decompressor system
+ * Holds the logic to constrol the different registers and muxes on the system
+ */
 module ControlUnit (input logic clk, reset, PCcpu, branch, encode,
 						  output logic branchMux, PCcompress, inputBuff, tableMux, outMux, PCintern, outBuff1, outBuff2);
 

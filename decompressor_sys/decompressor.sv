@@ -1,3 +1,12 @@
+/* 
+ * Top module - holds the decompression (with In/Out Registers) attached to the instruction memory
+ * WIDTH = word length of the system
+ * PCADD = off-set to add to the pc on each cycle
+ * OPcode = opcode of the compressed instructions
+ * encodeLength = length of the opcode used by the tokens
+ * InitFile = dat file holding the instructions to be save on the decompressor system
+ * SIZE = size of 'InitFile' to set the size of the tokens table memory
+ */
 module DecompressorReg #(parameter WIDTH = 32,
 								 parameter PCADD = 32'b100,
 								 parameter OPcode = 4'b1111,
