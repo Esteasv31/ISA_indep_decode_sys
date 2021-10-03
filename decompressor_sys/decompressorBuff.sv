@@ -59,6 +59,5 @@ ControlUnit ControlU (clk, reset, PCcpu1, branch, encode, branchMux, PCcompress1
 // Output Buffer
 	FLOPR #(WIDTH) outputReg2 (clk, reset, outBuff2, data2, outData2);
 	BUFFER #(WIDTH) outputBuff (outData1, DecompressInstr);
-	// FIFObuffer #(WIDTH, 2) outputBuff (clk, RD, WR, EN, Rst, dataIn, EMPTY, FULL, dataOut);
 
 endmodule
