@@ -1,3 +1,7 @@
+/* 
+ * Module that holds the registers of the processor
+ * 
+ */
 module REGFILE #(parameter WIDTH = 32)
 					 (input logic clk, we3,
 					  input logic [3:0] ra1, ra2, wa3,

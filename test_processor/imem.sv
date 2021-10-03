@@ -1,3 +1,8 @@
+/* 
+ * Instruction memeory module
+ * this module holds the instructions of the program tobe executed
+ * 
+ */
 module imem #(parameter WIDTH = 32,
 				  parameter SIZE = 64,
 				  parameter FILE = "memfile.dat")

@@ -1,3 +1,9 @@
+/* 
+ * custom FLIP-FLOP 
+ * holds a clear (clr) signal to clear the register values
+ * this flip-flop goes between the decode and the execution stage
+ * 
+ */
 module FLOPCLR #(parameter WIDTH = 32)
 					 (input logic clk, reset, clr,
 					  input logic [WIDTH-1:0] rd1, rd2, extImm,

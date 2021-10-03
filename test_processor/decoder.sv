@@ -1,3 +1,9 @@
+/* 
+ * Processor DECODER
+ * Identify the instruction type and bring out the different flags and control signal for the sys
+ * 
+ * 
+ */
 module DECODER (input logic [1:0] op,
 					 input logic [5:0] funct,
 					 input logic [3:0] rd,

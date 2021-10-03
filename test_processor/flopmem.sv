@@ -1,3 +1,8 @@
+/* 
+ * custom FLIP-FLOP 
+ * this flip-flop goes between the execution and memory stage
+ * 
+ */
 module FLOPMEM #(parameter WIDTH = 32)
 					 (input logic clk, reset,
 					  input logic [WIDTH-1:0] aluResult, Wdata, 

@@ -1,3 +1,9 @@
+/* 
+ * Basic test bench to test the top processor module
+ * This one runs the processor and the test code and check for it to complete
+ * it test that the last result of the program is correct and is hold on the data memory
+ * 
+ */
 module testbench #(parameter WIDTH = 32,
 						 parameter SIZE = 64)
 						();

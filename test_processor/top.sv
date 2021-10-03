@@ -1,3 +1,9 @@
+/* 
+ * Top module of the test processor proyect
+ * Holds the ARM processor along with the instruction and data memory
+ * charge the instruction memory with the init memfile.dat
+ * 
+ */
 module top #(parameter WIDTH = 32,
 				 parameter SIZE = 102)
 			   (input logic clk, reset,

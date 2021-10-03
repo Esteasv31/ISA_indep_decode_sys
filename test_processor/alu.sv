@@ -1,3 +1,9 @@
+/* 
+ * ALU of the ARM processor
+ * operations -> SUM, SUBS, AND, OR
+ * WIDTH = length of the word in the system
+ * 
+ */
 module ALU #(parameter WIDTH = 32)
 				(input logic [WIDTH-1:0] a, b,
 				 input logic [1:0] aluControl,

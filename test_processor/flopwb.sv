@@ -1,3 +1,8 @@
+/* 
+ * custom FLIP-FLOP 
+ * this flip-flop goes between the memory and write-back stage
+ * 
+ */
 module FLOPWB #(parameter WIDTH = 32)
 					(input logic clk, reset,
 					input logic prsrc, regwrite, memtoreg,

@@ -1,3 +1,9 @@
+/* 
+ * Unit to control Hazards on teh processor
+ * Read after write
+ * Write after write
+ * others
+ */
 module HAZARDU (input logic RegWriteW, RegWriteM, MemtoRegE,
 					input logic Match_1E_M, Match_1E_W, Match_2E_M, Match_2E_W, 
 					output logic [1:0] ForwardAE, ForwardBE,

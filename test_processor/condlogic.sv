@@ -1,3 +1,6 @@
+/* 
+ * Control module for the logical flags and control signal of the modules in the processor
+ */
 module CONDLOGIC (input logic clk, reset,
 						input logic [3:0] Cond, ALUFlags, prevFlags,
 						input logic [1:0] FlagW,

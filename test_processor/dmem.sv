@@ -1,3 +1,9 @@
+/* 
+ * Data memeory module
+ * this module holds the values needed on the execution of the program, also the results
+ * given by the program during the execution time
+ * 
+ */
 module dmem #(parameter WIDTH = 32,
 				  parameter SIZE = 64)
 				 (input logic clk, we,

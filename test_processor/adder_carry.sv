@@ -1,3 +1,9 @@
+/* 
+ * Logical ADDER with carry management for substraction process 
+ * WIDTH = length of word in the system
+ * 
+ * 
+ */
 module ADD_CARRY #(parameter WIDTH = 32)
 						(input logic [WIDTH-1:0] a, b,
 						 input logic cIn,

@@ -1,3 +1,9 @@
+/* 
+ * ARM basic processor for test the decompressor module
+ * WIDTH = length of the word in the system 
+ * PCADD = offset to be add to the processor on each cycle
+ * 
+ */
 module ARM #(parameter WIDTH = 32,
 				 parameter PCADD = 32'b100)
 				(input logic clk, reset,

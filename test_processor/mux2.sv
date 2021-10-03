@@ -1,3 +1,10 @@
+/* 
+ * Multiplexer gate
+ * 2 inputs 
+ * one output
+ * one control signal
+ * 
+ */
 module MUX2 #(parameter WIDTH = 32)
 				 (input logic [WIDTH-1:0] a, b,
 				  input logic cond,

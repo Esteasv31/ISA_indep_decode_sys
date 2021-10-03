@@ -1,3 +1,9 @@
+/* 
+ * Sign extend module
+ * exteds immediate number on instruction given the control signal of the DECODE sys
+ * WIDTH = length of the word in the sys
+ * 
+ */
 module EXTEND #(parameter WIDTH = 32)
 					(input logic [23:0] instr,
 					 input logic [1:0] immSrc,

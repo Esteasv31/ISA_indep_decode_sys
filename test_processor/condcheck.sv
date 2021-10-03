@@ -1,3 +1,9 @@
+/* 
+ * Conditio Check logic for the processor
+ * checks the current instruction flags and set the CondEx to proceed with the processor flow
+ * 
+ * 
+ */
 module CONDCHECK (input logic [3:0] Cond,
 						input logic [3:0] Flags,
 					  output logic CondEx);
