@@ -12,7 +12,7 @@ To run the main script just run the next commands and put the path of the source
 
 > cd compressor_sys
 >
-> python3 .\main.py -codeFile '<sourceCodeFilePath>'
+> python3 .\main.py -codeFile '< sourceCodeFilePath >'
 
 # Use cases
 
