@@ -121,9 +121,10 @@ def run_compressor(file_path, debug, code_summary_flag):
         print("**********************************************************\n")
         pprint.pprint(pattern)
 
-    compressed_file = "./CompressedFiles/" + file_name
-    token_table_file = "./CompressedFiles/tokensTable_" + file_name
+    compressed_file = "./CompressedFiles/" + file_name # path of the output compressed code
+    token_table_file = "./CompressedFiles/tokensTable_" + file_name # path of the output tokens table code
 
+    # Creation of the output files
     file_manager.createNewFile(compressed_file, output_list)
     file_manager.createNewFile(token_table_file, pattern, True)
 

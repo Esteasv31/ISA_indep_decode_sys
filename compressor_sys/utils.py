@@ -1,11 +1,14 @@
 import os
 
+# function to read code files
 def getSourceCode(file_path):
     file = open(file_path, "r")
     result = ''.join(file.readlines())
     file.close()
     return result
 
+# Function to format the compiled code to bring it the correct form to be compressed
+# also asign the correct jump dir on branches and tokens
 def getSourceCodeForConversion(code_file_path):
     file = open(code_file_path, "r")
     lines = file.readlines()
@@ -41,6 +44,7 @@ def getSourceCodeForConversion(code_file_path):
         result = result.replace(key, value)
     return result, pos_dict
 
+# function to insert tokens on the converted file - replace the invalid tokens on the converted file
 def insertTokens(code, tokens_dict):
     pc = 0
     result = []
@@ -54,6 +58,7 @@ def insertTokens(code, tokens_dict):
             pc += 4
     return result
 
+# function to create files and write data on it
 def createFile(path, lines):
     os.makedirs(os.path.dirname(path), exist_ok=True)
     file = open(path, "w")

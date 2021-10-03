@@ -41,6 +41,7 @@ class FileManagement:
 
         return char_count
 
+    # Function to create files and write data on files
     def createNewFile(self, filePath, data, isDictionary=False):
         os.makedirs(os.path.dirname(filePath), exist_ok=True)
         file = open(filePath, "w")
@@ -52,6 +53,7 @@ class FileManagement:
             file.writelines(self.parseListToString(data))
             file.close()
 
+    # Function to convert list to a unique string separated by line jumps '\n'
     def parseListToString(self, list):
         result = []
         tokenDir = {}
@@ -67,6 +69,7 @@ class FileManagement:
                 result.append(str(item) + '\n')
         return result
 
+    # Function to convert dictionary to List
     def parseDictionaryToList(self, dic):
         result = []
         for value in dic.values():

@@ -75,10 +75,12 @@ def compile(source, compiler, lang, file_path, debug=False):
     print(response.text)
     print("**********************************************************\n")
 
+  # build output file path
   output_file = output_file_path + file_path.split('\\')[-2] + '/' + (file_path.split('\\')[-1]).split('.')[0] + '.s'
+  # make output dir if not exist
   os.makedirs(os.path.dirname(output_file), exist_ok=True)
   file = open(output_file, "w")
-  file.writelines(response.text)
+  file.writelines(response.text) # write the compile code to the output file
   file.close()
 
   return output_file
