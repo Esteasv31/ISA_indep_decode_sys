@@ -79,7 +79,7 @@ RREF                         : A1        :        :                   :         
 MSEL2                        : A2        :        :                   :         : 9A        :                
 VCCBAT                       : A3        : power  :                   : 1.2V    :           :                
 nCONFIG                      : A4        :        :                   :         : 9A        :                
-DecompressInstr[10]          : A5        : output : 2.5 V             :         : 8A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : A5        :        :                   :         : 8A        :                
 VCCIO8A                      : A6        : power  :                   : 2.5V    : 8A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : A7        :        :                   :         : 8A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : A8        :        :                   :         : 8A        :                
@@ -103,15 +103,15 @@ GND                          : AA3       : gnd    :                   :         
 GND                          : AA4       : gnd    :                   :         :           :                
 AS_DATA2, DATA2              : AA5       :        :                   :         : 3A        :                
 GND                          : AA6       : gnd    :                   :         :           :                
-DecompressInstr[14]          : AA7       : output : 2.5 V             :         : 3B        : N              
-DecompressInstr[1]           : AA8       : output : 2.5 V             :         : 3B        : N              
-DecompressInstr[5]           : AA9       : output : 2.5 V             :         : 3B        : N              
-PCcpu[30]                    : AA10      : input  : 2.5 V             :         : 3B        : N              
+DecompressInstr[27]          : AA7       : output : 2.5 V             :         : 3B        : N              
+PCcpu[16]                    : AA8       : input  : 2.5 V             :         : 3B        : N              
+DecompressInstr[12]          : AA9       : output : 2.5 V             :         : 3B        : N              
+DecompressInstr[20]          : AA10      : output : 2.5 V             :         : 3B        : N              
 GND                          : AA11      : gnd    :                   :         :           :                
-PCcpu[17]                    : AA12      : input  : 2.5 V             :         : 3B        : N              
-DecompressInstr[26]          : AA13      : output : 2.5 V             :         : 4A        : N              
-PCcpu[9]                     : AA14      : input  : 2.5 V             :         : 4A        : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : AA15      :        :                   :         : 4A        :                
+DecompressInstr[14]          : AA12      : output : 2.5 V             :         : 3B        : N              
+PCcpu[13]                    : AA13      : input  : 2.5 V             :         : 4A        : N              
+PCcpu[18]                    : AA14      : input  : 2.5 V             :         : 4A        : N              
+DecompressInstr[31]          : AA15      : output : 2.5 V             :         : 4A        : N              
 VCCIO4A                      : AA16      : power  :                   : 2.5V    : 4A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AA17      :        :                   :         : 4A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AA18      :        :                   :         : 4A        :                
@@ -124,21 +124,21 @@ GND                          : AB2       : gnd    :                   :         
 AS_DATA1, DATA1              : AB3       :        :                   :         : 3A        :                
 AS_DATA0, ASDO, DATA0        : AB4       :        :                   :         : 3A        :                
 PCcpu[4]                     : AB5       : input  : 2.5 V             :         : 3B        : N              
-DecompressInstr[0]           : AB6       : output : 2.5 V             :         : 3B        : N              
-DecompressInstr[19]          : AB7       : output : 2.5 V             :         : 3B        : N              
-DecompressInstr[18]          : AB8       : output : 2.5 V             :         : 3B        : N              
+PCcpu[3]                     : AB6       : input  : 2.5 V             :         : 3B        : N              
+PCcpu[15]                    : AB7       : input  : 2.5 V             :         : 3B        : N              
+PCcpu[11]                    : AB8       : input  : 2.5 V             :         : 3B        : N              
 GND                          : AB9       : gnd    :                   :         :           :                
 PCcpu[20]                    : AB10      : input  : 2.5 V             :         : 3B        : N              
-PCcpu[1]                     : AB11      : input  : 2.5 V             :         : 3B        : N              
-PCcpu[31]                    : AB12      : input  : 2.5 V             :         : 4A        : N              
-PCcpu[19]                    : AB13      : input  : 2.5 V             :         : 4A        : N              
+DecompressInstr[0]           : AB11      : output : 2.5 V             :         : 3B        : N              
+PCcpu[21]                    : AB12      : input  : 2.5 V             :         : 4A        : N              
+DecompressInstr[6]           : AB13      : output : 2.5 V             :         : 4A        : N              
 GND                          : AB14      : gnd    :                   :         :           :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : AB15      :        :                   :         : 4A        :                
+DecompressInstr[29]          : AB15      : output : 2.5 V             :         : 4A        : N              
 VREFB4AN0                    : AB16      : power  :                   :         : 4A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AB17      :        :                   :         : 4A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AB18      :        :                   :         : 4A        :                
 GND                          : AB19      : gnd    :                   :         :           :                
-PCcpu[14]                    : AB20      : input  : 2.5 V             :         : 4A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AB20      :        :                   :         : 4A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AB21      :        :                   :         : 4A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AB22      :        :                   :         : 4A        :                
 GND                          : B1        : gnd    :                   :         :           :                
@@ -177,11 +177,11 @@ RESERVED_INPUT_WITH_WEAK_PULLUP : C11       :        :                   :      
 VCCIO7A                      : C12       : power  :                   : 2.5V    : 7A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : C13       :        :                   :         : 7A        :                
 VREFB7AN0                    : C14       : power  :                   :         : 7A        :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : C15       :        :                   :         : 7A        :                
+DecompressInstr[8]           : C15       : output : 2.5 V             :         : 7A        : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : C16       :        :                   :         : 7A        :                
 GND                          : C17       : gnd    :                   :         :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : C18       :        :                   :         : 7A        :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : C19       :        :                   :         : 7A        :                
+DecompressInstr[21]          : C19       : output : 2.5 V             :         : 7A        : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : C20       :        :                   :         : 7A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : C21       :        :                   :         : 7A        :                
 VCCIO7A                      : C22       : power  :                   : 2.5V    : 7A        :                
@@ -190,7 +190,7 @@ GND                          : D2        : gnd    :                   :         
 GXB_NC                       : D3        :        :                   :         : B1L       :                
 GXB_NC                       : D4        :        :                   :         : B1L       :                
 GND                          : D5        : gnd    :                   :         :           :                
-DecompressInstr[9]           : D6        : output : 2.5 V             :         : 8A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : D6        :        :                   :         : 8A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : D7        :        :                   :         : 8A        :                
 VCCPD7A8A                    : D8        : power  :                   : 2.5V    : 7A, 8A    :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : D9        :        :                   :         : 8A        :                
@@ -213,7 +213,7 @@ GND                          : E3        : gnd    :                   :         
 GND                          : E4        : gnd    :                   :         :           :                
 MSEL3                        : E5        :        :                   :         : 9A        :                
 VCC_AUX                      : E6        : power  :                   : 2.5V    :           :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : E7        :        :                   :         : 8A        :                
+PCcpu[1]                     : E7        : input  : 2.5 V             :         : 8A        : N              
 VCCIO8A                      : E8        : power  :                   : 2.5V    : 8A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : E9        :        :                   :         : 8A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : E10       :        :                   :         : 8A        :                
@@ -221,8 +221,8 @@ VCCPD7A8A                    : E11       : power  :                   : 2.5V    
 RESERVED_INPUT_WITH_WEAK_PULLUP : E12       :        :                   :         : 7A        :                
 GND                          : E13       : gnd    :                   :         :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : E14       :        :                   :         : 7A        :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : E15       :        :                   :         : 7A        :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : E16       :        :                   :         : 7A        :                
+DecompressInstr[11]          : E15       : output : 2.5 V             :         : 7A        : N              
+DecompressInstr[7]           : E16       : output : 2.5 V             :         : 7A        : N              
 DNU                          : E17       :        :                   :         :           :                
 VCCIO7A                      : E18       : power  :                   : 2.5V    : 7A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : E19       :        :                   :         : 7A        :                
@@ -282,7 +282,7 @@ RESERVED_INPUT_WITH_WEAK_PULLUP : H6        :        :                   :      
 GND                          : H7        : gnd    :                   :         :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : H8        :        :                   :         : 8A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : H9        :        :                   :         : 8A        :                
-DecompressInstr[7]           : H10       : output : 2.5 V             :         : 7A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : H10       :        :                   :         : 7A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : H11       :        :                   :         : 7A        :                
 GND                          : H12       : gnd    :                   :         :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : H13       :        :                   :         : 7A        :                
@@ -366,10 +366,10 @@ GND                          : M2        : gnd    :                   :         
 VCCH_GXBL                    : M3        : power  :                   : 2.5V    :           :                
 GND                          : M4        : gnd    :                   :         :           :                
 TDO                          : M5        : output :                   :         : 3A        :                
-PCcpu[5]                     : M6        : input  : 2.5 V             :         : 3A        : N              
-PCcpu[2]                     : M7        : input  : 2.5 V             :         : 3A        : N              
-PCcpu[24]                    : M8        : input  : 2.5 V             :         : 3B        : N              
-DecompressInstr[31]          : M9        : output : 2.5 V             :         : 3B        : N              
+PCcpu[6]                     : M6        : input  : 2.5 V             :         : 3A        : N              
+PCcpu[7]                     : M7        : input  : 2.5 V             :         : 3A        : N              
+DecompressInstr[30]          : M8        : output : 2.5 V             :         : 3B        : N              
+DecompressInstr[15]          : M9        : output : 2.5 V             :         : 3B        : N              
 GND                          : M10       : gnd    :                   :         :           :                
 VCC                          : M11       : power  :                   : 1.1V    :           :                
 GND                          : M12       : gnd    :                   :         :           :                
@@ -388,17 +388,17 @@ GXB_NC                       : N2        :        :                   :         
 GND                          : N3        : gnd    :                   :         :           :                
 VCCE_GXBL                    : N4        : power  :                   : 1.1V    :           :                
 GND                          : N5        : gnd    :                   :         :           :                
-PCcpu[23]                    : N6        : input  : 2.5 V             :         : 3A        : N              
+PCcpu[30]                    : N6        : input  : 2.5 V             :         : 3A        : N              
 GND                          : N7        : gnd    :                   :         :           :                
-DecompressInstr[17]          : N8        : output : 2.5 V             :         : 3B        : N              
-DecompressInstr[3]           : N9        : output : 2.5 V             :         : 3B        : N              
+DecompressInstr[28]          : N8        : output : 2.5 V             :         : 3B        : N              
+PCcpu[0]                     : N9        : input  : 2.5 V             :         : 3B        : N              
 VCC                          : N10       : power  :                   : 1.1V    :           :                
 GND                          : N11       : gnd    :                   :         :           :                
 VCC                          : N12       : power  :                   : 1.1V    :           :                
 GND                          : N13       : gnd    :                   :         :           :                
 VCC                          : N14       : power  :                   : 1.1V    :           :                
 GND                          : N15       : gnd    :                   :         :           :                
-DecompressInstr[21]          : N16       : output : 2.5 V             :         : 5B        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : N16       :        :                   :         : 5B        :                
 GND                          : N17       : gnd    :                   :         :           :                
 VCCPD5B                      : N18       : power  :                   : 2.5V    : 5B        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : N19       :        :                   :         : 5B        :                
@@ -410,13 +410,13 @@ GND                          : P2        : gnd    :                   :         
 VCCL_GXBL                    : P3        : power  :                   : 1.1V    :           :                
 GND                          : P4        : gnd    :                   :         :           :                
 TMS                          : P5        : input  :                   :         : 3A        :                
-PCcpu[11]                    : P6        : input  : 2.5 V             :         : 3A        : N              
-PCcpu[7]                     : P7        : input  : 2.5 V             :         : 3A        : N              
-DecompressInstr[30]          : P8        : output : 2.5 V             :         : 3B        : N              
-PCcpu[13]                    : P9        : input  : 2.5 V             :         : 3B        : N              
+PCcpu[29]                    : P6        : input  : 2.5 V             :         : 3A        : N              
+reset                        : P7        : input  : 2.5 V             :         : 3A        : N              
+DecompressInstr[5]           : P8        : output : 2.5 V             :         : 3B        : N              
+DecompressInstr[1]           : P9        : output : 2.5 V             :         : 3B        : N              
 GND                          : P10       : gnd    :                   :         :           :                
 VCC                          : P11       : power  :                   : 1.1V    :           :                
-PCcpu[0]                     : P12       : input  : 2.5 V             :         : 3B        : N              
+PCcpu[25]                    : P12       : input  : 2.5 V             :         : 3B        : N              
 VCC                          : P13       : power  :                   : 1.1V    :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : P14       :        :                   :         : 4A        :                
 VCC                          : P15       : power  :                   : 1.1V    :           :                
@@ -431,17 +431,17 @@ GND                          : R1        :        :                   :         
 GND                          : R2        :        :                   :         : B0L       :                
 GND                          : R3        : gnd    :                   :         :           :                
 nCSO, DATA4                  : R4        :        :                   :         : 3A        :                
-PCcpu[27]                    : R5        : input  : 2.5 V             :         : 3A        : N              
-PCcpu[25]                    : R6        : input  : 2.5 V             :         : 3A        : N              
-reset                        : R7        : input  : 2.5 V             :         : 3A        : N              
+PCcpu[19]                    : R5        : input  : 2.5 V             :         : 3A        : N              
+PCcpu[28]                    : R6        : input  : 2.5 V             :         : 3A        : N              
+PCcpu[8]                     : R7        : input  : 2.5 V             :         : 3A        : N              
 VCCIO3B                      : R8        : power  :                   : 2.5V    : 3B        :                
-DecompressInstr[22]          : R9        : output : 2.5 V             :         : 3B        : N              
-DecompressInstr[6]           : R10       : output : 2.5 V             :         : 3B        : N              
-PCcpu[16]                    : R11       : input  : 2.5 V             :         : 3B        : N              
+DecompressInstr[4]           : R9        : output : 2.5 V             :         : 3B        : N              
+DecompressInstr[17]          : R10       : output : 2.5 V             :         : 3B        : N              
+PCcpu[12]                    : R11       : input  : 2.5 V             :         : 3B        : N              
 PCcpu[10]                    : R12       : input  : 2.5 V             :         : 3B        : N              
 GND                          : R13       : gnd    :                   :         :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : R14       :        :                   :         : 4A        :                
-PCcpu[15]                    : R15       : input  : 2.5 V             :         : 5A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : R15       :        :                   :         : 5A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : R16       :        :                   :         : 5A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : R17       :        :                   :         : 5A        :                
 VCCIO5A                      : R18       : power  :                   : 2.5V    : 5A        :                
@@ -455,13 +455,13 @@ VCCH_GXBL                    : T3        : power  :                   : 2.5V    
 AS_DATA3, DATA3              : T4        :        :                   :         : 3A        :                
 VCCA_FPLL                    : T5        : power  :                   : 2.5V    :           :                
 VCCIO3A                      : T6        : power  :                   : 2.5V    : 3A        :                
-PCcpu[8]                     : T7        : input  : 2.5 V             :         : 3A        : N              
-PCcpu[6]                     : T8        : input  : 2.5 V             :         : 3A        : N              
-DecompressInstr[16]          : T9        : output : 2.5 V             :         : 3B        : N              
-DecompressInstr[12]          : T10       : output : 2.5 V             :         : 3B        : N              
+PCcpu[2]                     : T7        : input  : 2.5 V             :         : 3A        : N              
+PCcpu[22]                    : T8        : input  : 2.5 V             :         : 3A        : N              
+PCcpu[9]                     : T9        : input  : 2.5 V             :         : 3B        : N              
+DecompressInstr[18]          : T10       : output : 2.5 V             :         : 3B        : N              
 VCCIO3B                      : T11       : power  :                   : 2.5V    : 3B        :                
-PCcpu[18]                    : T12       : input  : 2.5 V             :         : 4A        : N              
-PCcpu[12]                    : T13       : input  : 2.5 V             :         : 4A        : N              
+PCcpu[17]                    : T12       : input  : 2.5 V             :         : 4A        : N              
+DecompressInstr[26]          : T13       : output : 2.5 V             :         : 4A        : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : T14       :        :                   :         : 4A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : T15       :        :                   :         : 5A        :                
 GND                          : T16       : gnd    :                   :         :           :                
@@ -476,17 +476,17 @@ GXB_NC                       : U2        :        :                   :         
 GND                          : U3        : gnd    :                   :         :           :                
 GND                          : U4        :        :                   :         : B0L       :                
 GND                          : U5        : gnd    :                   :         :           :                
-PCcpu[3]                     : U6        : input  : 2.5 V             :         : 3A        : N              
-PCcpu[26]                    : U7        : input  : 2.5 V             :         : 3A        : N              
-PCcpu[28]                    : U8        : input  : 2.5 V             :         : 3A        : N              
+PCcpu[5]                     : U6        : input  : 2.5 V             :         : 3A        : N              
+PCcpu[24]                    : U7        : input  : 2.5 V             :         : 3A        : N              
+PCcpu[27]                    : U8        : input  : 2.5 V             :         : 3A        : N              
 GND                          : U9        : gnd    :                   :         :           :                
-DecompressInstr[23]          : U10       : output : 2.5 V             :         : 3B        : N              
-DecompressInstr[2]           : U11       : output : 2.5 V             :         : 3B        : N              
+DecompressInstr[2]           : U10       : output : 2.5 V             :         : 3B        : N              
+DecompressInstr[13]          : U11       : output : 2.5 V             :         : 3B        : N              
 DecompressInstr[25]          : U12       : output : 2.5 V             :         : 3B        : N              
 DecompressInstr[24]          : U13       : output : 2.5 V             :         : 4A        : N              
 VCCIO4A                      : U14       : power  :                   : 2.5V    : 4A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : U15       :        :                   :         : 4A        :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : U16       :        :                   :         : 4A        :                
+DecompressInstr[9]           : U16       : output : 2.5 V             :         : 4A        : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : U17       :        :                   :         : 4A        :                
 VCCA_FPLL                    : U18       : power  :                   : 2.5V    :           :                
 VCCIO4A                      : U19       : power  :                   : 2.5V    : 4A        :                
@@ -498,16 +498,16 @@ GND                          : V2        : gnd    :                   :         
 DCLK                         : V3        :        :                   :         : 3A        :                
 GND                          : V4        :        :                   :         : B0L       :                
 TCK                          : V5        : input  :                   :         : 3A        :                
-PCcpu[22]                    : V6        : input  : 2.5 V             :         : 3A        : N              
+PCcpu[14]                    : V6        : input  : 2.5 V             :         : 3A        : N              
 GND                          : V7        : gnd    :                   :         :           :                
 VCCPGM                       : V8        : power  :                   : 1.8V/2.5V/3.0V/3.3V :           :                
-DecompressInstr[28]          : V9        : output : 2.5 V             :         : 3B        : N              
-DecompressInstr[15]          : V10       : output : 2.5 V             :         : 3B        : N              
+DecompressInstr[3]           : V9        : output : 2.5 V             :         : 3B        : N              
+PCcpu[23]                    : V10       : input  : 2.5 V             :         : 3B        : N              
 DNU                          : V11       :        :                   :         :           :                
 GND                          : V12       : gnd    :                   :         :           :                
-DecompressInstr[4]           : V13       : output : 2.5 V             :         : 4A        : N              
-DecompressInstr[13]          : V14       : output : 2.5 V             :         : 4A        : N              
-DecompressInstr[8]           : V15       : output : 2.5 V             :         : 4A        : N              
+DecompressInstr[10]          : V13       : output : 2.5 V             :         : 4A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : V14       :        :                   :         : 4A        :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : V15       :        :                   :         : 4A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : V16       :        :                   :         : 4A        :                
 GND                          : V17       : gnd    :                   :         :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : V18       :        :                   :         : 4A        :                
@@ -522,8 +522,8 @@ GND                          : W4        : gnd    :                   :         
 TDI                          : W5        : input  :                   :         : 3A        :                
 VCCPD3A                      : W6        : power  :                   : 2.5V    : 3A        :                
 VCC_AUX                      : W7        : power  :                   : 2.5V    :           :                
-PCcpu[21]                    : W8        : input  : 2.5 V             :         : 3A        : N              
-PCcpu[29]                    : W9        : input  : 2.5 V             :         : 3A        : N              
+PCcpu[31]                    : W8        : input  : 2.5 V             :         : 3A        : N              
+PCcpu[26]                    : W9        : input  : 2.5 V             :         : 3A        : N              
 VCCIO3B                      : W10       : power  :                   : 2.5V    : 3B        :                
 VCCPD3B4A                    : W11       : power  :                   : 2.5V    : 3B, 4A    :                
 VCCPD3B4A                    : W12       : power  :                   : 2.5V    : 3B, 4A    :                
@@ -545,17 +545,17 @@ GND                          : Y5        : gnd    :                   :         
 DNU                          : Y6        :        :                   :         :           :                
 VREFB3AN0                    : Y7        : power  :                   :         : 3A        :                
 VCCIO3A                      : Y8        : power  :                   : 2.5V    : 3A        :                
-DecompressInstr[27]          : Y9        : output : 2.5 V             :         : 3B        : N              
-DecompressInstr[20]          : Y10       : output : 2.5 V             :         : 3B        : N              
-DecompressInstr[29]          : Y11       : output : 2.5 V             :         : 3B        : N              
+DecompressInstr[16]          : Y9        : output : 2.5 V             :         : 3B        : N              
+DecompressInstr[23]          : Y10       : output : 2.5 V             :         : 3B        : N              
+DecompressInstr[22]          : Y11       : output : 2.5 V             :         : 3B        : N              
 VREFB3BN0                    : Y12       : power  :                   :         : 3B        :                
 VCCIO3B                      : Y13       : power  :                   : 2.5V    : 3B        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : Y14       :        :                   :         : 4A        :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : Y15       :        :                   :         : 4A        :                
+DecompressInstr[19]          : Y15       : output : 2.5 V             :         : 4A        : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : Y16       :        :                   :         : 4A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : Y17       :        :                   :         : 4A        :                
 GND                          : Y18       : gnd    :                   :         :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : Y19       :        :                   :         : 4A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : Y20       :        :                   :         : 4A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : Y21       :        :                   :         : 4A        :                
-DecompressInstr[11]          : Y22       : output : 2.5 V             :         : 4A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : Y22       :        :                   :         : 4A        :                

@@ -5,7 +5,7 @@
  * 
  */
 module top #(parameter WIDTH = 32,
-				 parameter SIZE = 102,
+				 parameter SIZE = 112,
 				 parameter INITFILE = "memfile.dat")
 			   (input logic clk, reset,
 				output logic [WIDTH-1:0] WriteData, DataAdrA, PC, Instr, ReadData,

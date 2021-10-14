@@ -7,7 +7,7 @@
  * InitFile = dat file holding the instructions to be save on the decompressor system
  * SIZE = size of 'InitFile' to set the size of the tokens table memory
  */
-module DecompressorLatch #(parameter WIDTH = 32,
+module decompressorLatch #(parameter WIDTH = 32,
 								   parameter PCADD = 32'b100,
 								   parameter OPcode = 4'b1111,
 								   parameter encodeLength = 4,

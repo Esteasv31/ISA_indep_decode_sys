@@ -1,12 +1,12 @@
-Fitter Status : Successful - Wed Sep 29 17:01:04 2021
+Fitter Status : Successful - Wed Oct 13 16:58:42 2021
 Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 Revision Name : DecompressorModule
 Top-level Entity Name : topBuffer
 Family : Cyclone V
 Device : 5CGXFC7C7F23C8
 Timing Models : Final
-Logic utilization (in ALMs) : 181 / 56,480 ( < 1 % )
-Total registers : 66
+Logic utilization (in ALMs) : 122 / 56,480 ( < 1 % )
+Total registers : 39
 Total pins : 66 / 268 ( 25 % )
 Total virtual pins : 0
 Total block memory bits : 0 / 7,024,640 ( 0 % )

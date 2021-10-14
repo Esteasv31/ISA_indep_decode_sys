@@ -25,7 +25,7 @@ logic wme;
 logic [WIDTH-1:0] NextInstr, WriteData, PCcompress;
 
 // Decompressor Module
-DecompressorBuff #(WIDTH, PCADD, OPcode, encodeLength, InitTokenFile, tokenSize) 
+decompressorBuff #(WIDTH, PCADD, OPcode, encodeLength, InitTokenFile, tokenSize) 
 	decompressorModule (clk, reset, wme, PCcpu, NextInstr, WriteData, PCcompress, DecompressInstr);
 	
 // instantiate instruction memories

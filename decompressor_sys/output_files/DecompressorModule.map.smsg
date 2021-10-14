@@ -1,3 +1,3 @@
-Info (10281): Verilog HDL Declaration information at decompressor.sv(2): object "PCADD" differs only in case from object "pcAdd" in the same scope File: F:/TFG/ISA_indep_decode_sys/decompressor_sys/decompressor.sv Line: 2
-Info (10281): Verilog HDL Declaration information at decompressorBuff.sv(2): object "PCADD" differs only in case from object "pcAdd" in the same scope File: F:/TFG/ISA_indep_decode_sys/decompressor_sys/decompressorBuff.sv Line: 2
-Info (10281): Verilog HDL Declaration information at decompressorLatch.sv(2): object "PCADD" differs only in case from object "pcAdd" in the same scope File: F:/TFG/ISA_indep_decode_sys/decompressor_sys/decompressorLatch.sv Line: 2
+Info (10281): Verilog HDL Declaration information at decompressor.sv(11): object "PCADD" differs only in case from object "pcAdd" in the same scope File: F:/TFG/ISA_indep_decode_sys/decompressor_sys/decompressor.sv Line: 11
+Info (10281): Verilog HDL Declaration information at decompressorBuff.sv(11): object "PCADD" differs only in case from object "pcAdd" in the same scope File: F:/TFG/ISA_indep_decode_sys/decompressor_sys/decompressorBuff.sv Line: 11
+Info (10281): Verilog HDL Declaration information at decompressorLatch.sv(11): object "PCADD" differs only in case from object "pcAdd" in the same scope File: F:/TFG/ISA_indep_decode_sys/decompressor_sys/decompressorLatch.sv Line: 11

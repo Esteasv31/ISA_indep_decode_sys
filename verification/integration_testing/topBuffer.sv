@@ -5,7 +5,7 @@ module topBuffer #(parameter WIDTH = 32,
 					 parameter InitTokenFile = "tokenTable.dat",
 					 parameter memFile = "memfile.dat",
 					 parameter tokenSize = 102,
-					 parameter memSize = 102)
+					 parameter memSize = 1002)
 			   (input logic clk, reset);
 				
 logic wme, MemWrite;
@@ -15,7 +15,7 @@ logic [WIDTH-1:0] NextInstr, WriteData, PCcompress, DataAdrA, WriteDataMem, Read
 ARM #(WIDTH, 32'b100) armPipeLine (clk, reset, PCcpu, DecompressInstr, MemWrite, DataAdrA, WriteDataMem, ReadData);
 
 // Decompressor Module
-DecompressorBuff #(WIDTH, PCADD, OPcode, encodeLength, InitTokenFile, tokenSize) 
+decompressorBuff #(WIDTH, PCADD, OPcode, encodeLength, InitTokenFile, tokenSize) 
 	decompressorModule (clk, reset, wme, PCcpu, NextInstr, WriteData, PCcompress, DecompressInstr);
 	
 // instantiate instruction memories
